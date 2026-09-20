@@ -13,8 +13,12 @@ type ApiResponse = {
 
 const RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
+const M04_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M04_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
   {
@@ -41,6 +45,10 @@ const instructorGroups = [
         label: "M03 · RUN OF DAY",
         url: `${INSTRUCTOR_HTML}M03-run-of-day.html`,
       },
+      {
+        label: "M04 · ONE NUMBER",
+        url: `${M04_INSTRUCTOR_HTML}M04-run-of-day.html`,
+      },
     ],
   },
   {
@@ -64,6 +72,14 @@ const instructorGroups = [
         url: `${RAW}teaching-pack/04-M03-hallucination/KEY-M03-answer-key.docx`,
       },
       {
+        label: "M04 instructor reveal",
+        url: `${M04_RAW}teaching-pack/08-M04-one-number/M04-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M04",
+        url: `${M04_RAW}teaching-pack/08-M04-one-number/KEY-M04-answer-key.docx`,
+      },
+      {
         label: "Case B instructor key",
         url: `${RAW}teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`,
       },
@@ -85,6 +101,10 @@ const instructorGroups = [
         label: "M03 FOREMAN specification summary",
         url: `${RAW}teaching-pack/04-M03-hallucination/H3-02-foreman-spec-summary.docx`,
       },
+      {
+        label: "M04 FOREMAN core summary",
+        url: `${M04_RAW}teaching-pack/08-M04-one-number/H4-03-foreman-core-summary.docx`,
+      },
     ],
   },
   {
@@ -92,8 +112,8 @@ const instructorGroups = [
     note: "Instructor sequencing, file index, and bridge-use guidance.",
     links: [
       {
-        label: "Instructor guide · M01–M03",
-        url: `${RAW}teaching-pack/00-INSTRUCTOR/INSTRUCTOR-GUIDE-M01-M03.docx`,
+        label: "Instructor guide · M01–M04",
+        url: `${M04_RAW}teaching-pack/00-INSTRUCTOR/INSTRUCTOR-GUIDE-M01-M04.docx`,
       },
       {
         label: "Instructor file index",

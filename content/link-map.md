@@ -6,6 +6,10 @@ It was supplied by the Curriculum builder and verified against upstream on
 Runtime student constants live in `src/data/linkMap.ts`; gated instructor
 constants live only in `api/instructor.ts`.
 
+M04 is hung provisionally from teaching-pack PR #8. Every M04 URL below,
+including the updated instructor guide, is pinned to branch
+`cursor/build-m04-one-number-6a74` until that PR is merged.
+
 ## Brand lock
 
 This is ACMEJOB.Ai, not Stone Arch Collective:
@@ -43,6 +47,14 @@ the spoiler-clean course landing.
 
 Main’s combined `M02-slides-measurement.pptx` is forbidden.
 
+### M04 · One Number
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/M04-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/cores_2027.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/H4-01-diane-one-number-ask.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/H4-02-spreadsheet-hunt.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/H4-04-three-sentence-brief.docx`
+
 ### Case B student packet
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
@@ -76,6 +88,7 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M01-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M03-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/00-INSTRUCTOR/run-of-day/M04-run-of-day.html`
 
 ### Reveal and keys
 
@@ -83,6 +96,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/02-M01-first-day/KEY-M01-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/KEY-M02-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/KEY-M03-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/M04-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/KEY-M04-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
@@ -90,10 +105,11 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/02-M01-first-day/H1-03-foreman-deck-assessment.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/H2-03-foreman-baseline-check.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-02-foreman-spec-summary.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/H4-03-foreman-core-summary.docx`
 
 ### Run sheets and notes
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/INSTRUCTOR-GUIDE-M01-M03.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/00-INSTRUCTOR/INSTRUCTOR-GUIDE-M01-M04.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/FILE-INDEX.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/BRIDGE-VISUALS.txt`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/06-BRIDGE/README.txt`
@@ -104,7 +120,7 @@ The learner shell must not link, preview, index, or search-display:
 
 - the M02 instructor reveal;
 - any `KEY`, `INSTRUCTOR`, `REVEAL`, `answer-key`, `speaker-notes`, or `spoiler` path;
-- H1-03, H2-03, or H3-02;
+- H1-03, H2-03, H3-02, or H4-03;
 - any `teaching-pack/00-INSTRUCTOR/` path;
 - the Case B instructor key;
 - the upstream course `README.md`;

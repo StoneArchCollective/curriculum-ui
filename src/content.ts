@@ -121,13 +121,49 @@ export const units: Unit[] = [
         ],
       },
       {
+        id: "m04",
+        number: "M04",
+        title: "One Number",
+        kicker: "Descriptive statistics / Diane’s ask",
+        status: "open",
+        summary:
+          "Use the core data to choose one defensible number for Diane and explain what that number does—and does not—say.",
+        assets: [
+          asset(
+            "M04 student deck",
+            studentLinks.oneNumber.m04StudentDeck,
+            "slides",
+          ),
+          asset(
+            "2027 core data",
+            studentLinks.oneNumber.coresData,
+            "data",
+          ),
+          asset(
+            "Diane’s one-number ask",
+            studentLinks.oneNumber.dianeAsk,
+            "brief",
+          ),
+          asset(
+            "Spreadsheet hunt",
+            studentLinks.oneNumber.spreadsheetHunt,
+            "tool",
+          ),
+          asset(
+            "Three-sentence brief",
+            studentLinks.oneNumber.threeSentenceBrief,
+            "brief",
+          ),
+        ],
+      },
+      {
         id: "u1-next",
-        number: "M03–M06",
+        number: "M05–M06",
         title: "The evidence develops",
         kicker: "Coming to the job board",
         status: "planned",
         summary:
-          "LLM generation, descriptive statistics, agentic AI, distributions, and the first data audits.",
+          "Agentic AI, distributions, and the first data audits.",
         assets: [],
       },
     ],
