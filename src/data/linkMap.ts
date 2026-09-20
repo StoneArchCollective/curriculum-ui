@@ -16,6 +16,18 @@ export const studentLinks = {
     m02StudentDeck:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/M02-student.pptx",
   },
+  hallucination: {
+    m03Deck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/M03-slides-hallucination.pptx",
+    countySpecification:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-01-KC-MB-12-county-spec.docx",
+    nextWordDice:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-03-next-word-dice-activity.docx",
+    sourceCheck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-04-source-check-worksheet.docx",
+    homework:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-05-HW2-spec-summary-check.docx",
+  },
   oneNumber: {
     m04StudentDeck:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/M04-student.pptx",

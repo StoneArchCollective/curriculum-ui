@@ -51,6 +51,17 @@ the spoiler-clean course landing.
 
 Main’s combined `M02-slides-measurement.pptx` is forbidden.
 
+### M03 · The section that does not exist
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/M03-slides-hallucination.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-01-KC-MB-12-county-spec.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-03-next-word-dice-activity.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-04-source-check-worksheet.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-05-HW2-spec-summary-check.docx`
+
+`H3-02-foreman-spec-summary.docx` and `KEY-M03-answer-key.docx` remain
+instructor-only.
+
 ### M04 · One Number
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/M04-student.pptx`
