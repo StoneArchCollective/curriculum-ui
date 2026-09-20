@@ -15,10 +15,14 @@ const RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M04_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/";
+const M05_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M05_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
   {
@@ -48,6 +52,10 @@ const instructorGroups = [
       {
         label: "M04 · ONE NUMBER",
         url: `${M04_INSTRUCTOR_HTML}M04-run-of-day.html`,
+      },
+      {
+        label: "M05 · THE 3 A.M. ALARM",
+        url: `${M05_INSTRUCTOR_HTML}M05-run-of-day.html`,
       },
     ],
   },
@@ -80,6 +88,14 @@ const instructorGroups = [
         url: `${M04_RAW}teaching-pack/08-M04-one-number/KEY-M04-answer-key.docx`,
       },
       {
+        label: "M05 instructor reveal",
+        url: `${M05_RAW}teaching-pack/09-M05-overnight-alarm/M05-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M05",
+        url: `${M05_RAW}teaching-pack/09-M05-overnight-alarm/KEY-M05-answer-key.docx`,
+      },
+      {
         label: "Case B instructor key",
         url: `${RAW}teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`,
       },
@@ -104,6 +120,14 @@ const instructorGroups = [
       {
         label: "M04 FOREMAN core summary",
         url: `${M04_RAW}teaching-pack/08-M04-one-number/H4-03-foreman-core-summary.docx`,
+      },
+      {
+        label: "M05 FOREMAN alarm report",
+        url: `${M05_RAW}teaching-pack/09-M05-overnight-alarm/H5-02-FOREMAN-alarm-report.docx`,
+      },
+      {
+        label: "M05 FOREMAN overnight run",
+        url: `${M05_RAW}teaching-pack/09-M05-overnight-alarm/FOREMAN-overnight-run.log`,
       },
     ],
   },

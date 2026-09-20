@@ -157,14 +157,46 @@ export const units: Unit[] = [
         ],
       },
       {
-        id: "u1-next",
-        number: "M05–M06",
-        title: "The evidence develops",
-        kicker: "Coming to the job board",
-        status: "planned",
+        id: "m05",
+        number: "M05",
+        title: "The 3 a.m. alarm",
+        kicker: "Agentic AI / Overnight run",
+        status: "open",
         summary:
-          "Agentic AI, distributions, and the first data audits.",
-        assets: [],
+          "Trace FOREMAN’s overnight path from a recorded warning to an unsupported closure recommendation, separating data, rules, and action.",
+        assets: [
+          asset(
+            "M05 student deck",
+            studentLinks.overnightAlarm.m05StudentDeck,
+            "slides",
+          ),
+          asset(
+            "Diane’s overnight dispatch",
+            studentLinks.overnightAlarm.dianeDispatch,
+            "brief",
+          ),
+          asset(
+            "Agent-loop audit",
+            studentLinks.overnightAlarm.agentLoopAudit,
+            "tool",
+          ),
+          asset(
+            "Note v1 + HW3",
+            studentLinks.overnightAlarm.noteAndHomework,
+            "brief",
+          ),
+          asset(
+            "Overnight feed",
+            studentLinks.overnightAlarm.feed,
+            "data",
+          ),
+          asset(
+            "Threshold configuration",
+            studentLinks.overnightAlarm.thresholdConfig,
+            "data",
+            true,
+          ),
+        ],
       },
     ],
   },

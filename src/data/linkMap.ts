@@ -28,6 +28,20 @@ export const studentLinks = {
     threeSentenceBrief:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/H4-04-three-sentence-brief.docx",
   },
+  overnightAlarm: {
+    m05StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/M05-student.pptx",
+    dianeDispatch:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/H5-01-diane-overnight-dispatch.docx",
+    agentLoopAudit:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/H5-03-agent-loop-audit.docx",
+    noteAndHomework:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/H5-04-note-v1-and-HW3.docx",
+    feed:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/feed.csv",
+    thresholdConfig:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/threshold_config.csv",
+  },
   caseB: {
     studentAskDocx:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",
