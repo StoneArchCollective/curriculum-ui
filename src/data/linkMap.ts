@@ -25,8 +25,6 @@ export const studentLinks = {
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-03-next-word-dice-activity.docx",
     sourceCheck:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-04-source-check-worksheet.docx",
-    homework:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-05-HW2-spec-summary-check.docx",
   },
   oneNumber: {
     m04StudentDeck:

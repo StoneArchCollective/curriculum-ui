@@ -112,11 +112,6 @@ export const units: Unit[] = [
             studentLinks.hallucination.sourceCheck,
             "tool",
           ),
-          asset(
-            "HW2 · Specification summary check",
-            studentLinks.hallucination.homework,
-            "brief",
-          ),
         ],
       },
       {
