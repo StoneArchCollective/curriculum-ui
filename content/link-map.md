@@ -2,7 +2,7 @@
 
 This file is the checked-in allowlist for the learner and instructor shells.
 It was supplied by the Curriculum builder and verified against upstream on
-2026-09-20 (`main` at `e35e6e8`; PR #5 at `fbeed80`; PR #7 at `814e11a`).
+2026-09-20.
 Runtime student constants live in `src/data/linkMap.ts`; gated instructor
 constants live only in `api/instructor.ts`.
 
@@ -39,9 +39,8 @@ the spoiler-clean course landing.
 
 ### M02
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/split-m02-decks-9d5e/teaching-pack/03-M02-measurement/M02-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/M02-student.pptx`
 
-This remains pinned to PR #5 branch `cursor/split-m02-decks-9d5e` until merge.
 Main’s combined `M02-slides-measurement.pptx` is forbidden.
 
 ### Case B student packet
@@ -70,19 +69,17 @@ These URLs may be returned only by the password-gated server function.
 
 These browser-rendered links use `htmlpreview.github.io` because the teaching
 pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
-`text/plain`. They remain pinned to PR #7 branch
-`cursor/instructor-run-of-day-4604` until that PR merges; then change the raw
-ref inside each preview URL to `main`.
+`text/plain`.
 
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/why-this-way.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/index.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/M01-run-of-day.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/M03-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/why-this-way.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/index.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/M01-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/M03-run-of-day.html`
 
 ### Reveal and keys
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/split-m02-decks-9d5e/teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/02-M01-first-day/KEY-M01-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/KEY-M02-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/04-M03-hallucination/KEY-M03-answer-key.docx`

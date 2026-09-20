@@ -13,9 +13,8 @@ export const studentLinks = {
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/01-BRAND-KIT/ACMEJOB-brand-kit.zip",
   },
   measurement: {
-    // PR #5 branch pin. Switch only after the split decks merge to main.
     m02StudentDeck:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/split-m02-decks-9d5e/teaching-pack/03-M02-measurement/M02-student.pptx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/M02-student.pptx",
   },
   caseB: {
     studentAskDocx:
