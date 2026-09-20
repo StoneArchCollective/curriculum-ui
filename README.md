@@ -2,7 +2,7 @@
 
 Learner and instructor shells for the continuous Otter Bend Lift Bridge
 simulation. The interface is config-driven and links directly to the public
-[teaching pack](https://github.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation).
+[teaching pack](https://github.com/Stone-Arch-Collective/Design-and-AI).
 
 ## Run locally
 
