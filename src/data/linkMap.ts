@@ -54,19 +54,19 @@ export const studentLinks = {
   },
   alarmAudit: {
     m06StudentDeck:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/M06-student.pptx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/M06-student.pptx",
     foremanDisposition:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/H6-01-FOREMAN-alarm-disposition.docx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/H6-01-FOREMAN-alarm-disposition.docx",
     distributionAudit:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/H6-02-distribution-and-chain-audit.docx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/H6-02-distribution-and-chain-audit.docx",
     decisionLog:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/H6-03-decision-log-and-unit-debrief.docx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/H6-03-decision-log-and-unit-debrief.docx",
     wesHandoff:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/H6-04-Wes-gauge-file-handoff.docx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/H6-04-Wes-gauge-file-handoff.docx",
     gaugeAudit:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/M06-gauge-audit-and-handoff.xlsx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/M06-gauge-audit-and-handoff.xlsx",
     trafficCounts:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/traffic_counts.csv",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/traffic_counts.csv",
   },
   caseB: {
     studentAskDocx:
