@@ -14,6 +14,8 @@ M05 teaching-pack PR #9 is merged. Every M05 URL below is pinned to `main`.
 M06 teaching-pack PR #10 is merged. Every M06 URL below is pinned to `main`.
 M04 and M05 remain pinned to `main`.
 
+M07 teaching pack is merged. Every M07 URL below is pinned to `main`.
+
 ## Brand lock
 
 This is ACMEJOB.Ai, not Stone Arch Collective:
@@ -108,6 +110,22 @@ instructor-only.
 `traffic_counts.csv` is intentionally public: it is the raw hunt table and
 does not mark or label the matching row.
 
+### M07 · Does the confidence travel?
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/M07-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-01-vendor-training-summary.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-02-Otter-Bend-site-and-exposure.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-03-inspection-photo-set.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-04-confidence-score-log.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-05-training-to-deployment-audit.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-06-note-v2-and-decision-log.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/FOREMAN-M07-damage-screen.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/WES-M07-accepted-screen-memo.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/M07-inspection-inventory-and-output.csv`
+
+`KEY-M07-answer-key.docx` and `M07-instructor-reveal.pptx` remain
+instructor-only.
+
 ### Case B student packet
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
@@ -144,6 +162,7 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M04-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M05-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M06-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M07-run-of-day.html`
 
 ### Reveal and keys
 
@@ -157,6 +176,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/KEY-M05-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/M06-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/KEY-M06-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/M07-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/KEY-M07-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
