@@ -84,6 +84,37 @@ export const units: Unit[] = [
         ],
       },
       {
+        id: "m03",
+        number: "M03",
+        title: "The section that does not exist",
+        kicker: "LLM generation / Hallucination",
+        status: "open",
+        summary:
+          "Model next-word generation by hand, then check FOREMAN’s specification summary against the county source to find what is altered or invented.",
+        assets: [
+          asset(
+            "M03 hallucination deck",
+            studentLinks.hallucination.m03Deck,
+            "slides",
+          ),
+          asset(
+            "KC-MB-12 movable bridge inspection specification",
+            studentLinks.hallucination.countySpecification,
+            "field file",
+          ),
+          asset(
+            "Next-word dice activity",
+            studentLinks.hallucination.nextWordDice,
+            "tool",
+          ),
+          asset(
+            "Source-check worksheet",
+            studentLinks.hallucination.sourceCheck,
+            "tool",
+          ),
+        ],
+      },
+      {
         id: "case-b",
         number: "HW1B",
         title: "Oak Street startup",
