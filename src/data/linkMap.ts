@@ -12,6 +12,20 @@ export const studentLinks = {
     brandKit:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/01-BRAND-KIT/ACMEJOB-brand-kit.zip",
   },
+  prerequisiteReview: {
+    probabilityAndSampling:
+      "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/guides/probability-and-sampling.html",
+    codeReadingPrimer:
+      "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/guides/code-reading-primer.html",
+    engineeringReferenceCards:
+      "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/guides/engineering-reference-cards.html",
+    optionalConcepts:
+      "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/guides/optional-concepts.html",
+  },
+  vocabulary: {
+    vocabLab:
+      "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/vocab-lab/vocab-lab.html",
+  },
   measurement: {
     m02StudentDeck:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/M02-student.pptx",
