@@ -23,6 +23,7 @@ export type Unit = {
   number: string;
   title: string;
   subtitle: string;
+  motto: string;
   phase: string;
   meetings: Meeting[];
 };
@@ -45,7 +46,8 @@ export const units: Unit[] = [
     number: "01",
     title: "Hired",
     subtitle:
-      "Rules, learned patterns, measurement, generation, and the first field checks",
+      "You measure the Otter Bend Lift Bridge’s movement, but FOREMAN’s outputs flicker with uncertainty. Diane PE asks how you know—your raw data analysis reveals the machine’s limits.",
+    motto: "First weeks: measurement meets machine.",
     phase: "M01–M06 · First days",
     meetings: [
       {
@@ -135,7 +137,8 @@ export const units: Unit[] = [
     number: "02",
     title: "Doubt",
     subtitle:
-      "Bias, correlation, false precision, dashboards, pipelines, and the permit call",
+      "FOREMAN’s charts hide flaws in decimal precision. Wes EIT questions partial handoffs—should the AI’s “certainty” override your doubt? You trace errors in its logic.",
+    motto: "When data dazzles, doubt is your compass.",
     phase: "M07–M14 · Investigation",
     meetings: [],
   },
@@ -144,7 +147,8 @@ export const units: Unit[] = [
     number: "03",
     title: "Build",
     subtitle:
-      "AI-assisted Python, tests, hand calculations, verification, and debugging",
+      "You draft tight specs for the lift bridge, verifying AI code against known answers. Only you ensure the math aligns with reality—FOREMAN follows your rules, not its own.",
+    motto: "Code is a conversation, not a command.",
     phase: "M15–M20 · Fabrication",
     meetings: [],
   },
@@ -153,7 +157,8 @@ export const units: Unit[] = [
     number: "04",
     title: "Own",
     subtitle:
-      "Iterative design, reusable calculation tools, and the recommendation",
+      "Rehab or replace? Kinnick County’s budget hinges on your analysis. You own the recommendation—FOREMAN’s numbers are tools, not verdicts.",
+    motto: "Your name carries the weight of choice.",
     phase: "M21–M23 · Design development",
     meetings: [],
   },
@@ -162,7 +167,8 @@ export const units: Unit[] = [
     number: "05",
     title: "Sign",
     subtitle:
-      "Risk, independent verification, PE responsibility, and the county briefing",
+      "You meticulously prepare the county board briefing for the Otter Bend recommendation, ensuring that independent verification and the record are prioritized over a polished draft. You sign only what you can defend.",
+    motto: "Accuracy and integrity are paramount in your documentation.",
     phase: "M24–M28 + finals · Final review",
     meetings: [],
   },

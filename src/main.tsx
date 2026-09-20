@@ -300,7 +300,8 @@ function StudentShell() {
                 <div>
                   <span className="eyebrow">{unit.phase}</span>
                   <h3>{unit.title}</h3>
-                  <p>{unit.subtitle}</p>
+                  <p className="unit-file__blurb">{unit.subtitle}</p>
+                  <p className="unit-file__motto">{unit.motto}</p>
                 </div>
               </div>
               {unit.meetings.length ? (
