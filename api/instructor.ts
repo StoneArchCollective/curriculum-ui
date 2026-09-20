@@ -24,6 +24,10 @@ const instructorGroups = [
     note: "Browser-ready day plans from the instructor teaching pack.",
     links: [
       {
+        label: "WHY TEACH THIS WAY · FACULTY BRIEF",
+        url: "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/why-this-way.html",
+      },
+      {
         label: "RUN OF DAY · CONTENTS",
         url: `${PR7_HTML}index.html`,
       },

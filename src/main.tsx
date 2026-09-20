@@ -473,8 +473,8 @@ function InstructorShell() {
               <span>PACK STATUS</span>
               <p>
                 The M02 student and instructor decks are pinned to PR #5’s branch.
-                Run-of-day pages are pinned to PR #7’s branch. Switch each ref to
-                main only after its teaching-pack PR merges.
+                The faculty brief and run-of-day pages are pinned to PR #7’s branch.
+                Switch each ref to main only after its teaching-pack PR merges.
               </p>
             </div>
             <div className="instructor-groups">
