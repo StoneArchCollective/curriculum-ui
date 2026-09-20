@@ -4,7 +4,6 @@
   --rebar: #2b2f36;
   --concrete: #e6e8ea;
   --river: #6f8faf;
-  --hilite: #f2c230;
   --rust: #9c4a2f;
   --paper: #f7f5ef;
   --white: #fff;
@@ -48,8 +47,9 @@ a {
 }
 
 :focus-visible {
-  outline: 3px solid var(--hilite);
+  outline: 3px solid var(--girder);
   outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--concrete);
 }
 
 .visually-hidden {
@@ -183,7 +183,7 @@ a {
   margin-bottom: 50px;
   padding: 8px 12px;
   color: var(--girder);
-  background: var(--hilite);
+  background: var(--concrete);
   box-shadow: 5px 5px 0 rgb(0 0 0 / 16%);
   transform: rotate(-1deg);
   font: 600 11px/1 "IBM Plex Mono", monospace;
@@ -312,7 +312,7 @@ a {
   width: 78px;
   height: 31px;
   transform: rotate(-2deg);
-  background: rgb(242 194 48 / 70%);
+  background: rgb(111 143 175 / 58%);
 }
 
 .person-quote {
@@ -624,7 +624,8 @@ a {
   margin: 0;
   padding: 11px 13px 9px;
   color: var(--girder);
-  background: rgb(242 194 48 / 48%);
+  border-left: 4px solid var(--girder);
+  background: var(--concrete);
   transform: rotate(1deg);
   font: 700 19px/1.15 "Caveat", cursive;
 }
@@ -955,7 +956,7 @@ footer p {
   margin: 55px 0;
   padding: 22px;
   color: var(--girder);
-  border-left: 7px solid var(--hilite);
+  border-left: 7px solid var(--girder);
   background: var(--white);
 }
 
