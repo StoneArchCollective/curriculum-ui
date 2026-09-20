@@ -384,8 +384,17 @@ function InstructorShell() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ password }),
       });
-      const result = await response.json();
+      const body = await response.text();
+      let result: { error?: string; groups?: InstructorGroup[] };
+      try {
+        result = body ? JSON.parse(body) : {};
+      } catch {
+        result = {};
+      }
+      result.error ??=
+        "Instructor access requires the Vercel development server.";
       if (!response.ok) throw new Error(result.error || "Access denied");
+      if (!result.groups) throw new Error("Instructor file list is unavailable.");
       setGroups(result.groups);
       setPassword("");
     } catch (reason) {
@@ -419,6 +428,18 @@ function InstructorShell() {
                 materials are not shipped in the public student application bundle.
               </p>
               <form onSubmit={authenticate}>
+                <label className="visually-hidden" htmlFor="instructor-username">
+                  Username
+                </label>
+                <input
+                  className="visually-hidden"
+                  id="instructor-username"
+                  name="username"
+                  value="SEIS 201 instructor"
+                  autoComplete="username"
+                  readOnly
+                  tabIndex={-1}
+                />
                 <label htmlFor="instructor-password">Course password</label>
                 <div className="password-row">
                   <input
