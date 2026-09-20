@@ -75,7 +75,7 @@ export const units: Unit[] = [
         assignment: "Case B unlocks after this meeting.",
         assets: [
           asset(
-            "M02 spoiler-safe student deck",
+            "M02 student deck",
             studentLinks.measurement.m02StudentDeck,
             "slides",
           ),
