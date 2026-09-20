@@ -2,7 +2,7 @@
 
 This file is the checked-in allowlist for the learner and instructor shells.
 It was supplied by the Curriculum builder and verified against upstream on
-2026-09-20 (`main` at `e35e6e8`; PR #5 at `fbeed80`; PR #7 at `814e11a`).
+2026-09-20 (`main` at `6bfd9aa`; PR #7 at `814e11a`).
 Runtime student constants live in `src/data/linkMap.ts`; gated instructor
 constants live only in `api/instructor.ts`.
 
@@ -39,9 +39,9 @@ the spoiler-clean course landing.
 
 ### M02
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/split-m02-decks-9d5e/teaching-pack/03-M02-measurement/M02-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/M02-student.pptx`
 
-This remains pinned to PR #5 branch `cursor/split-m02-decks-9d5e` until merge.
+The split M02 student deck is on `main` after teaching-pack PR #5 merged.
 Main’s combined `M02-slides-measurement.pptx` is forbidden.
 
 ### Case B student packet
@@ -81,7 +81,7 @@ ref inside each preview URL to `main`.
 
 ### Reveal and keys
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/split-m02-decks-9d5e/teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/02-M01-first-day/KEY-M01-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/KEY-M02-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/04-M03-hallucination/KEY-M03-answer-key.docx`
