@@ -17,12 +17,16 @@ const M04_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/";
 const M05_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/";
+const M06_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M05_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M06_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
   {
@@ -56,6 +60,10 @@ const instructorGroups = [
       {
         label: "M05 · THE 3 A.M. ALARM",
         url: `${M05_INSTRUCTOR_HTML}M05-run-of-day.html`,
+      },
+      {
+        label: "M06 · REAL—OR AN OUTLIER? / ALARM AUDIT",
+        url: `${M06_INSTRUCTOR_HTML}M06-run-of-day.html`,
       },
     ],
   },
@@ -94,6 +102,14 @@ const instructorGroups = [
       {
         label: "KEY · M05",
         url: `${M05_RAW}teaching-pack/09-M05-overnight-alarm/KEY-M05-answer-key.docx`,
+      },
+      {
+        label: "M06 instructor reveal",
+        url: `${M06_RAW}teaching-pack/10-M06-alarm-audit/M06-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M06",
+        url: `${M06_RAW}teaching-pack/10-M06-alarm-audit/KEY-M06-answer-key.docx`,
       },
       {
         label: "Case B instructor key",

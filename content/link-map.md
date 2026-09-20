@@ -14,6 +14,10 @@ M05 is hung provisionally from teaching-pack PR #9. Every M05 URL below is
 pinned to branch `cursor/build-m05-overnight-alarm-447d` until that PR is
 merged. M04 remains pinned independently to its PR #8 branch.
 
+M06 is hung provisionally from teaching-pack PR #10. Every M06 URL below is
+pinned to branch `cursor/build-m06-alarm-audit-34e0` until that PR is merged.
+M04 and M05 remain pinned independently to their respective branches.
+
 ## Brand lock
 
 This is ACMEJOB.Ai, not Stone Arch Collective:
@@ -68,6 +72,19 @@ Main’s combined `M02-slides-measurement.pptx` is forbidden.
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/feed.csv`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/threshold_config.csv`
 
+### M06 · Real—or an outlier? / alarm audit
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/M06-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/H6-01-FOREMAN-alarm-disposition.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/H6-02-distribution-and-chain-audit.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/H6-03-decision-log-and-unit-debrief.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/H6-04-Wes-gauge-file-handoff.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/M06-gauge-audit-and-handoff.xlsx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/traffic_counts.csv`
+
+`traffic_counts.csv` is intentionally public: it is the raw hunt table and
+does not mark or label the matching row.
+
 ### Case B student packet
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
@@ -103,6 +120,7 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M03-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/00-INSTRUCTOR/run-of-day/M04-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/00-INSTRUCTOR/run-of-day/M05-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/00-INSTRUCTOR/run-of-day/M06-run-of-day.html`
 
 ### Reveal and keys
 
@@ -114,6 +132,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/KEY-M04-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/M05-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/KEY-M05-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/M06-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/KEY-M06-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
