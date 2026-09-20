@@ -229,6 +229,53 @@ export const units: Unit[] = [
           ),
         ],
       },
+      {
+        id: "m06",
+        number: "M06",
+        title: "Real—or an outlier? / alarm audit",
+        kicker: "Alarm audit / Wes handoff",
+        status: "open",
+        summary:
+          "Audit FOREMAN’s alarm disposition against the traffic distribution and chain of evidence, then hand Wes a gauge file with a defensible decision record.",
+        assets: [
+          asset(
+            "M06 student deck",
+            studentLinks.alarmAudit.m06StudentDeck,
+            "slides",
+          ),
+          asset(
+            "FOREMAN alarm disposition",
+            studentLinks.alarmAudit.foremanDisposition,
+            "field file",
+            true,
+          ),
+          asset(
+            "Distribution + chain audit",
+            studentLinks.alarmAudit.distributionAudit,
+            "tool",
+          ),
+          asset(
+            "Decision log + Unit 1 debrief",
+            studentLinks.alarmAudit.decisionLog,
+            "brief",
+          ),
+          asset(
+            "Wes gauge-file handoff",
+            studentLinks.alarmAudit.wesHandoff,
+            "brief",
+          ),
+          asset(
+            "Gauge audit + handoff workbook",
+            studentLinks.alarmAudit.gaugeAudit,
+            "tool",
+          ),
+          asset(
+            "Traffic counts",
+            studentLinks.alarmAudit.trafficCounts,
+            "data",
+          ),
+        ],
+      },
     ],
   },
   {
