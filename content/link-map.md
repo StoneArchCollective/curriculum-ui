@@ -74,6 +74,7 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 `cursor/instructor-run-of-day-4604` until that PR merges; then change the raw
 ref inside each preview URL to `main`.
 
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/why-this-way.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/index.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/M01-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
