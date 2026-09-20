@@ -13,34 +13,18 @@ type ApiResponse = {
 
 const RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/";
-const BLOB =
-  "https://github.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/blob/main/";
-const TREE =
-  "https://github.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/tree/main/";
+const PR5_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/split-m02-decks-9d5e/";
 
 const instructorGroups = [
   {
-    title: "Instructor guide",
-    note: "Facilitation notes and the complete M01–M03 teaching file.",
+    title: "Reveal + answer keys",
+    note: "Spoiler-bearing decks and solutions for the currently built work.",
     links: [
       {
-        label: "Instructor guide · M01–M03",
-        url: `${RAW}teaching-pack/00-INSTRUCTOR/INSTRUCTOR-GUIDE-M01-M03.docx`,
+        label: "M02 instructor reveal · PR #5 branch",
+        url: `${PR5_RAW}teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`,
       },
-      {
-        label: "Instructor file index",
-        url: `${RAW}teaching-pack/00-INSTRUCTOR/FILE-INDEX.docx`,
-      },
-      {
-        label: "Browse instructor folder",
-        url: `${TREE}teaching-pack/00-INSTRUCTOR`,
-      },
-    ],
-  },
-  {
-    title: "Meeting keys",
-    note: "Answer keys for the three currently built meetings.",
-    links: [
       {
         label: "KEY · M01",
         url: `${RAW}teaching-pack/02-M01-first-day/KEY-M01-answer-key.docx`,
@@ -53,19 +37,49 @@ const instructorGroups = [
         label: "KEY · M03",
         url: `${RAW}teaching-pack/04-M03-hallucination/KEY-M03-answer-key.docx`,
       },
+      {
+        label: "Case B instructor key",
+        url: `${RAW}teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`,
+      },
     ],
   },
   {
-    title: "Case B key",
-    note: "Planted condition and expected analysis for Oak Street.",
+    title: "FOREMAN spoilers",
+    note: "Machine outputs held back from the learner shell.",
     links: [
       {
-        label: "Instructor key · readable copy",
-        url: `${BLOB}teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`,
+        label: "M01 FOREMAN deck assessment",
+        url: `${RAW}teaching-pack/02-M01-first-day/H1-03-foreman-deck-assessment.docx`,
       },
       {
-        label: "Browse Case B instructor folder",
-        url: `${TREE}teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor`,
+        label: "M02 FOREMAN baseline check",
+        url: `${RAW}teaching-pack/03-M02-measurement/H2-03-foreman-baseline-check.docx`,
+      },
+      {
+        label: "M03 FOREMAN specification summary",
+        url: `${RAW}teaching-pack/04-M03-hallucination/H3-02-foreman-spec-summary.docx`,
+      },
+    ],
+  },
+  {
+    title: "Run sheets + notes",
+    note: "Instructor sequencing, file index, and bridge-use guidance.",
+    links: [
+      {
+        label: "Instructor guide · M01–M03",
+        url: `${RAW}teaching-pack/00-INSTRUCTOR/INSTRUCTOR-GUIDE-M01-M03.docx`,
+      },
+      {
+        label: "Instructor file index",
+        url: `${RAW}teaching-pack/00-INSTRUCTOR/FILE-INDEX.docx`,
+      },
+      {
+        label: "Bridge visuals instructor notes",
+        url: `${RAW}teaching-pack/00-INSTRUCTOR/BRIDGE-VISUALS.txt`,
+      },
+      {
+        label: "Bridge asset README",
+        url: `${RAW}teaching-pack/06-BRIDGE/README.txt`,
       },
     ],
   },

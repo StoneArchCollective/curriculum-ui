@@ -1,14 +1,10 @@
-const RAW =
-  "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/";
-const BLOB =
-  "https://github.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/blob/main/";
+import { studentAllowlist, studentLinks } from "./data/linkMap";
 
 export type Asset = {
   label: string;
-  path: string;
+  url: string;
   kind: "brief" | "field file" | "data" | "slides" | "visual" | "tool";
-  view?: boolean;
-  folder?: boolean;
+  machine?: boolean;
 };
 
 export type Meeting = {
@@ -23,7 +19,7 @@ export type Meeting = {
 };
 
 export type Unit = {
-  id: string;
+  id: "01-hired" | "02-doubt" | "03-build" | "04-own" | "05-sign";
   number: string;
   title: string;
   subtitle: string;
@@ -33,27 +29,24 @@ export type Unit = {
 
 const asset = (
   label: string,
-  path: string,
+  url: string,
   kind: Asset["kind"],
-  view = false,
-): Asset => ({ label, path, kind, view });
-
-const handouts = (folder: string, files: string[]): Asset[] =>
-  files.map((file) =>
-    asset(
-      file.replace(/\.(docx|md|csv)$/i, "").replace(/-/g, " "),
-      `${folder}/${file}`,
-      file.endsWith(".csv") ? "data" : "field file",
-    ),
-  );
+  machine = false,
+): Asset => {
+  if (!studentAllowlist.has(url)) {
+    throw new Error(`Student asset is not in the canonical allowlist: ${url}`);
+  }
+  return { label, url, kind, machine };
+};
 
 export const units: Unit[] = [
   {
-    id: "unit-1",
+    id: "01-hired",
     number: "01",
-    title: "Report to the bridge",
-    subtitle: "AI foundations, measurement, and the first hard questions",
-    phase: "Mobilization",
+    title: "Hired",
+    subtitle:
+      "Rules, learned patterns, measurement, generation, and the first gauge checks",
+    phase: "M01–M06 · First days",
     meetings: [
       {
         id: "m01",
@@ -62,21 +55,13 @@ export const units: Unit[] = [
         kicker: "Orientation / Otter Bend",
         status: "open",
         summary:
-          "Meet Diane, Wes, and FOREMAN v4.2. Review the inherited bridge record and decide what belongs to a person, a machine, or both.",
+          "Meet Diane, Wes, and FOREMAN v4.2. Enter the Otter Bend record and establish who is responsible for the work.",
         assets: [
           asset(
-            "M01 briefing deck",
-            "teaching-pack/02-M01-first-day/M01-slides-first-day.pptx",
+            "M01 student deck",
+            studentLinks.orientation.m01Deck,
             "slides",
           ),
-          ...handouts("teaching-pack/02-M01-first-day", [
-            "H1-01-orientation-memo-halvorsen.docx",
-            "H1-02-load-rating-sheet.docx",
-            "H1-03-foreman-deck-assessment.docx",
-            "H1-04-deck-panel-history-2019.docx",
-            "H1-05-task-sort-activity.docx",
-            "H1-06-note-v1-template-rubric.docx",
-          ]),
         ],
       },
       {
@@ -86,46 +71,14 @@ export const units: Unit[] = [
         kicker: "Field trailer / Measurement",
         status: "open",
         summary:
-          "The numbers are real; the question is whether the summary is useful. Inspect the installation record, work the measurements, and document a defensible call.",
+          "Move from a polished output to the conditions under which the measurements were made.",
         assignment: "Case B unlocks after this meeting.",
         assets: [
           asset(
-            "M02 measurement deck",
-            "teaching-pack/03-M02-measurement/M02-slides-measurement.pptx",
+            "M02 spoiler-safe student deck",
+            studentLinks.measurement.m02StudentDeck,
             "slides",
           ),
-          ...handouts("teaching-pack/03-M02-measurement", [
-            "H2-01-measurement-lab.docx",
-            "H2-02-sensor-installation-record.docx",
-            "H2-03-foreman-baseline-check.docx",
-            "H2-04-HW1-gauge-baseline.docx",
-            "H2-05-hours-and-decision-log.docx",
-            "gauges_install.csv",
-            "pin_measurements_backup.csv",
-          ]),
-        ],
-      },
-      {
-        id: "m03",
-        number: "M03",
-        title: "The citation that wasn't",
-        kicker: "County file room / Source check",
-        status: "open",
-        summary:
-          "FOREMAN sounds certain. The specification is on the table. Trace each claim to its source before the team sends anything outside the firm.",
-        assets: [
-          asset(
-            "M03 source-check deck",
-            "teaching-pack/04-M03-hallucination/M03-slides-hallucination.pptx",
-            "slides",
-          ),
-          ...handouts("teaching-pack/04-M03-hallucination", [
-            "H3-01-KC-MB-12-county-spec.docx",
-            "H3-02-foreman-spec-summary.docx",
-            "H3-03-next-word-dice-activity.docx",
-            "H3-04-source-check-worksheet.docx",
-            "H3-05-HW2-spec-summary-check.docx",
-          ]),
         ],
       },
       {
@@ -139,146 +92,130 @@ export const units: Unit[] = [
         assets: [
           asset(
             "Student assignment · DOCX",
-            "teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",
+            studentLinks.caseB.studentAskDocx,
             "brief",
           ),
           asset(
-            "Student assignment · readable copy",
-            "teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.md",
+            "Student assignment · accessible Markdown",
+            studentLinks.caseB.studentAskMarkdown,
             "brief",
-            true,
           ),
           asset(
-            "FOREMAN PASS report",
-            "teaching-pack/07-HW-CASE-B-LIFT-STATION/student/FOREMAN_PASS_report.md",
-            "field file",
-            true,
-          ),
-          asset(
-            "Installation startup note",
-            "teaching-pack/07-HW-CASE-B-LIFT-STATION/student/install_startup_note.md",
-            "field file",
-            true,
-          ),
-          asset(
-            "Sensor readings",
-            "teaching-pack/07-HW-CASE-B-LIFT-STATION/student/sensors_startup.csv",
+            "Sensor startup data",
+            studentLinks.caseB.sensorData,
             "data",
+          ),
+          asset(
+            "FOREMAN initial PASS report",
+            studentLinks.caseB.foremanPassReport,
+            "field file",
             true,
+          ),
+          asset(
+            "Installation / startup note",
+            studentLinks.caseB.startupNote,
+            "field file",
           ),
         ],
       },
       {
         id: "u1-next",
-        number: "M04–M06",
-        title: "The analysis develops",
+        number: "M03–M06",
+        title: "The evidence develops",
         kicker: "Coming to the job board",
         status: "planned",
         summary:
-          "Descriptive statistics, agentic AI, distributions, and auditing an agent's analysis.",
+          "LLM generation, descriptive statistics, agentic AI, distributions, and the first data audits.",
         assets: [],
       },
     ],
   },
   {
-    id: "unit-2",
+    id: "02-doubt",
     number: "02",
-    title: "Audit the machine",
-    subtitle: "Bias, uncertainty, dashboards, and data pipelines",
-    phase: "Investigation",
+    title: "Doubt",
+    subtitle:
+      "Bias, correlation, false precision, dashboards, pipelines, and the permit call",
+    phase: "M07–M14 · Investigation",
     meetings: [],
   },
   {
-    id: "unit-3",
+    id: "03-build",
     number: "03",
-    title: "Read what it built",
-    subtitle: "Code generation, tests, verification, and debugging",
-    phase: "Fabrication",
+    title: "Build",
+    subtitle:
+      "AI-assisted Python, tests, hand calculations, verification, and debugging",
+    phase: "M15–M20 · Fabrication",
     meetings: [],
   },
   {
-    id: "unit-4",
+    id: "04-own",
     number: "04",
-    title: "Design with it",
-    subtitle: "Iterative workflows, engineering tools, and research",
-    phase: "Design development",
+    title: "Own",
+    subtitle:
+      "Iterative design, reusable calculation tools, and the recommendation",
+    phase: "M21–M23 · Design development",
     meetings: [],
   },
   {
-    id: "unit-5",
+    id: "05-sign",
     number: "05",
-    title: "Put your name on it",
-    subtitle: "Ethics, verification, safety, and professional responsibility",
-    phase: "Final review",
+    title: "Sign",
+    subtitle:
+      "Risk, independent verification, PE responsibility, and the county briefing",
+    phase: "M24–M28 + finals · Final review",
     meetings: [],
   },
 ];
 
 export const resourceGroups = [
   {
-    title: "Field desk",
-    note: "Project visuals and the firm kit",
+    title: "Start here",
+    note: "Course orientation and firm identity",
     links: [
       asset(
-        "Otter Bend general elevation",
-        "teaching-pack/06-BRIDGE/otter-bend-general-elevation.png",
-        "visual",
-        true,
+        "Course home / README",
+        studentLinks.orientation.courseHome,
+        "brief",
       ),
       asset(
-        "Strain gauge array",
-        "teaching-pack/06-BRIDGE/otter-bend-strain-gauge-array.png",
-        "visual",
-        true,
-      ),
-      asset(
-        "Project location map",
-        "teaching-pack/06-BRIDGE/otter-bend-location-map.png",
-        "visual",
-        true,
-      ),
-      asset(
-        "ACMEJOB brand kit",
-        "teaching-pack/01-BRAND-KIT/ACMEJOB-brand-kit.zip",
+        "ACMEJOB student brand kit",
+        studentLinks.orientation.brandKit,
         "tool",
       ),
-      {
-        ...asset("Course chart set", "teaching-pack/05-CHARTS", "visual"),
-        folder: true,
-      },
     ],
   },
   {
-    title: "Reference shelf",
-    note: "Self-paced guides for the work ahead",
+    title: "Bridge desk",
+    note: "Fictional, schematic course visuals",
     links: [
-      asset("Probability + sampling", "guides/probability-and-sampling.html", "tool", true),
-      asset("Code-reading primer", "guides/code-reading-primer.html", "tool", true),
       asset(
-        "Engineering reference cards",
-        "guides/engineering-reference-cards.html",
-        "tool",
-        true,
+        "Otter Bend flat bridge illustration",
+        studentLinks.bridge.flatIllustration,
+        "visual",
       ),
-      asset("Optional concepts", "guides/optional-concepts.html", "tool", true),
-    ],
-  },
-  {
-    title: "Curriculum map",
-    note: "See where each idea enters the job",
-    links: [
-      asset("Learning graph", "learning-graph-v2/graph-viewer.html", "tool", true),
-      asset("Concept list", "learning-graph-v2/concept-list.md", "tool", true),
-      asset("Vocabulary lab", "vocab-lab/vocab-lab.html", "tool", true),
+      asset(
+        "General elevation · dimensions not verified",
+        studentLinks.bridge.generalElevation,
+        "visual",
+      ),
+      asset(
+        "Primary site map · fictional place names",
+        studentLinks.bridge.primarySiteMap,
+        "visual",
+      ),
+      asset(
+        "Backup locator · fictional course site",
+        studentLinks.bridge.backupLocator,
+        "visual",
+      ),
+      asset(
+        "Strain-gauge array G1–G8",
+        studentLinks.bridge.strainGaugeArray,
+        "visual",
+      ),
     ],
   },
 ];
 
-export const hrefFor = (item: Asset) =>
-  `${
-    item.folder
-      ? "https://github.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/tree/main/"
-      : item.view
-        ? BLOB
-        : RAW
-  }${item.path}`;
+export const hrefFor = (item: Asset) => item.url;

@@ -37,14 +37,15 @@ The upstream teaching pack remains a public repository.
 
 ## Add or update a meeting
 
-Edit `src/content.ts`:
+Start with `content/link-map.md`, the Curriculum builder’s canonical allowlist:
 
-1. Add a `Meeting` object to the appropriate unit.
-2. Use repository-relative paths for each student-safe asset.
-3. Set `view: true` for browser-readable GitHub pages; omit it for direct
-   downloads.
-4. Never add `KEY-*`, `00-INSTRUCTOR`, or instructor-folder paths to this file.
-5. Add restricted links to `api/instructor.ts` instead.
+1. Add an approved public URL to `src/data/linkMap.ts`.
+2. Add the `Meeting` object to the appropriate unit in `src/content.ts`.
+3. The runtime allowlist rejects student assets that are not in the canonical map.
+4. Never add `KEY`, `INSTRUCTOR`, `REVEAL`, `answer-key`, `speaker-notes`, or
+   `spoiler` paths to client code.
+5. Add approved restricted links to `api/instructor.ts` instead; they are
+   returned only after password verification.
 
 Unit layout, progression, and file cards are rendered from this map, so later
 meetings require no component redesign.

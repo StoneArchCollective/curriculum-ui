@@ -41,10 +41,9 @@ function Arrow() {
 }
 
 function AssetLink({ item }: { item: Asset }) {
-  const machine = item.label.toLowerCase().includes("foreman");
   return (
     <a
-      className={`asset-link ${machine ? "asset-link--machine" : ""}`}
+      className={`asset-link ${item.machine ? "asset-link--machine" : ""}`}
       href={hrefFor(item)}
       target="_blank"
       rel="noreferrer"
@@ -100,7 +99,7 @@ function MeetingCard({
           </div>
           <div className="asset-grid">
             {meeting.assets.map((item) => (
-              <AssetLink item={item} key={item.path} />
+              <AssetLink item={item} key={item.url} />
             ))}
           </div>
           <p className="external-note">
@@ -137,15 +136,15 @@ function ResourceDrawer({
         <div className="drawer__top">
           <div>
             <span className="eyebrow">Secondary tray</span>
-            <h2>Shop library</h2>
+            <h2>Project files</h2>
           </div>
           <button className="close-button" onClick={onClose}>
             Close
           </button>
         </div>
         <p className="drawer__intro">
-          Guides, reference files, and the curriculum map live here. The project
-          storyline stays on the main job board.
+          Orientation and approved bridge visuals live here. The project storyline
+          stays on the main job board.
         </p>
         {resourceGroups.map((group) => (
           <section className="resource-group" key={group.title}>
@@ -155,7 +154,7 @@ function ResourceDrawer({
             </div>
             <div className="resource-links">
               {group.links.map((item) => (
-                <AssetLink item={item} key={item.path} />
+                <AssetLink item={item} key={item.url} />
               ))}
             </div>
           </section>
@@ -168,7 +167,7 @@ function ResourceDrawer({
 function StudentShell() {
   const [activeMeeting, setActiveMeeting] = useState("m01");
   const [resourcesOpen, setResourcesOpen] = useState(false);
-  const [activeUnit, setActiveUnit] = useState("unit-1");
+  const [activeUnit, setActiveUnit] = useState("01-hired");
   const unit = useMemo(
     () => units.find((candidate) => candidate.id === activeUnit) ?? units[0],
     [activeUnit],
@@ -182,7 +181,7 @@ function StudentShell() {
         </a>
         <nav aria-label="Utility navigation">
           <button className="text-button" onClick={() => setResourcesOpen(true)}>
-            Shop library
+            Project files
           </button>
           <a className="text-button" href="/instructor">
             Instructor entrance
@@ -211,7 +210,7 @@ function StudentShell() {
                 <span aria-hidden="true">↓</span>
               </a>
               <button className="secondary-button" onClick={() => setResourcesOpen(true)}>
-                Open shop library
+                Open project files
               </button>
             </div>
           </div>
@@ -354,7 +353,7 @@ function StudentShell() {
           construction, operation, or public-safety decisions.
         </p>
         <button className="text-button" onClick={() => setResourcesOpen(true)}>
-          Guides + reference
+          Approved project files
         </button>
       </footer>
       <ResourceDrawer open={resourcesOpen} onClose={() => setResourcesOpen(false)} />
@@ -472,8 +471,8 @@ function InstructorShell() {
             <div className="notice">
               <span>PACK STATUS</span>
               <p>
-                The M02 instructor-reveal deck is not in the source repository yet.
-                Add it here after PR #5 merges; never place it in the student map.
+                The M02 student and instructor decks are pinned to PR #5’s branch.
+                Switch both refs to main only after that split-deck PR merges.
               </p>
             </div>
             <div className="instructor-groups">
