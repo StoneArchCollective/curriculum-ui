@@ -7,8 +7,6 @@
  */
 export const studentLinks = {
   orientation: {
-    courseHome:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/README.md",
     m01Deck:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/02-M01-first-day/M01-slides-first-day.pptx",
     brandKit:

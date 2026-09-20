@@ -45,7 +45,7 @@ export const units: Unit[] = [
     number: "01",
     title: "Hired",
     subtitle:
-      "Rules, learned patterns, measurement, generation, and the first gauge checks",
+      "Rules, learned patterns, measurement, generation, and the first field checks",
     phase: "M01–M06 · First days",
     meetings: [
       {
@@ -170,14 +170,9 @@ export const units: Unit[] = [
 
 export const resourceGroups = [
   {
-    title: "Start here",
-    note: "Course orientation and firm identity",
+    title: "Firm kit",
+    note: "Approved ACMEJOB student identity assets",
     links: [
-      asset(
-        "Course home / README",
-        studentLinks.orientation.courseHome,
-        "brief",
-      ),
       asset(
         "ACMEJOB student brand kit",
         studentLinks.orientation.brandKit,

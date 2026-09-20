@@ -30,9 +30,12 @@ Only these resources may be linked from the learner shell.
 
 ### Orientation
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/README.md`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/02-M01-first-day/M01-slides-first-day.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/01-BRAND-KIT/ACMEJOB-brand-kit.zip`
+
+The upstream course `README.md` is explicitly excluded from the learner shell:
+it contains M02 outcome and reveal language. The in-app hero and job board are
+the spoiler-clean course landing.
 
 ### M02
 
@@ -93,6 +96,7 @@ The learner shell must not link, preview, index, or search-display:
 - H1-03, H2-03, or H3-02;
 - any `teaching-pack/00-INSTRUCTOR/` path;
 - the Case B instructor key;
+- the upstream course `README.md`;
 - main’s combined `M02-slides-measurement.pptx`.
 
 Case B’s student `FOREMAN_PASS_report.md` is intentionally public.
