@@ -28,15 +28,15 @@ export const studentLinks = {
   },
   oneNumber: {
     m04StudentDeck:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/M04-student.pptx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/08-M04-one-number/M04-student.pptx",
     coresData:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/cores_2027.csv",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/08-M04-one-number/cores_2027.csv",
     dianeAsk:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/H4-01-diane-one-number-ask.docx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/08-M04-one-number/H4-01-diane-one-number-ask.docx",
     spreadsheetHunt:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/H4-02-spreadsheet-hunt.docx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/08-M04-one-number/H4-02-spreadsheet-hunt.docx",
     threeSentenceBrief:
-      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/08-M04-one-number/H4-04-three-sentence-brief.docx",
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/08-M04-one-number/H4-04-three-sentence-brief.docx",
   },
   overnightAlarm: {
     m05StudentDeck:
