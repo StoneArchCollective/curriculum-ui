@@ -2,9 +2,9 @@
 
 This file is the checked-in allowlist for the learner and instructor shells.
 It was supplied by the Curriculum builder and verified against upstream on
-2026-09-20 (`main` at `e35e6e8`; PR #5 at `fbeed80`). Runtime student constants
-live in `src/data/linkMap.ts`; gated instructor constants live only in
-`api/instructor.ts`.
+2026-09-20 (`main` at `e35e6e8`; PR #5 at `fbeed80`; PR #7 at `814e11a`).
+Runtime student constants live in `src/data/linkMap.ts`; gated instructor
+constants live only in `api/instructor.ts`.
 
 ## Brand lock
 
@@ -65,6 +65,19 @@ Keep all embedded schematic and fictional-site disclaimers visible.
 ## INSTRUCTOR allowlist
 
 These URLs may be returned only by the password-gated server function.
+
+### Run of day
+
+These browser-rendered links use `htmlpreview.github.io` because the teaching
+pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
+`text/plain`. They remain pinned to PR #7 branch
+`cursor/instructor-run-of-day-4604` until that PR merges; then change the raw
+ref inside each preview URL to `main`.
+
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/index.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/M01-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/M03-run-of-day.html`
 
 ### Reveal and keys
 
