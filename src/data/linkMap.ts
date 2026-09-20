@@ -82,6 +82,28 @@ export const studentLinks = {
     trafficCounts:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/traffic_counts.csv",
   },
+  trainingMismatch: {
+    m07StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/M07-student.pptx",
+    vendorTrainingSummary:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-01-vendor-training-summary.docx",
+    siteAndExposure:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-02-Otter-Bend-site-and-exposure.docx",
+    inspectionPhotoSet:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-03-inspection-photo-set.docx",
+    confidenceScoreLog:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-04-confidence-score-log.docx",
+    trainingToDeploymentAudit:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-05-training-to-deployment-audit.docx",
+    noteAndDecisionLog:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/H7-06-note-v2-and-decision-log.docx",
+    foremanDamageScreen:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/FOREMAN-M07-damage-screen.docx",
+    wesAcceptedScreenMemo:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/WES-M07-accepted-screen-memo.docx",
+    inspectionInventory:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/M07-inspection-inventory-and-output.csv",
+  },
   caseB: {
     studentAskDocx:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",

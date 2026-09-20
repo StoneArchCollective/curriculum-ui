@@ -978,6 +978,10 @@ footer p {
   box-shadow: 0 20px 48px rgb(31 58 95 / 14%);
 }
 
+.instructor-unit + .instructor-unit {
+  margin-top: clamp(22px, 4vw, 42px);
+}
+
 .instructor-unit__header {
   display: grid;
   align-items: center;

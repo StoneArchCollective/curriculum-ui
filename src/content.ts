@@ -286,7 +286,70 @@ export const units: Unit[] = [
       "FOREMAN’s charts hide flaws in decimal precision. Wes EIT questions partial handoffs—should the AI’s “certainty” override your doubt? You trace errors in its logic.",
     motto: "When data dazzles, doubt is your compass.",
     phase: "M07–M14 · Investigation",
-    meetings: [],
+    meetings: [
+      {
+        id: "m07",
+        number: "M07",
+        title: "Does the confidence travel?",
+        kicker: "Training-data bias / Distribution shift",
+        status: "open",
+        summary:
+          "Compare FOREMAN’s disclosed training archive with Otter Bend before deciding which ratings—and which claims—can travel into the interim report.",
+        assets: [
+          asset(
+            "M07 student deck",
+            studentLinks.trainingMismatch.m07StudentDeck,
+            "slides",
+          ),
+          asset(
+            "Vendor training summary",
+            studentLinks.trainingMismatch.vendorTrainingSummary,
+            "field file",
+          ),
+          asset(
+            "Otter Bend site + exposure",
+            studentLinks.trainingMismatch.siteAndExposure,
+            "field file",
+          ),
+          asset(
+            "Inspection photo set",
+            studentLinks.trainingMismatch.inspectionPhotoSet,
+            "field file",
+          ),
+          asset(
+            "Confidence-score log",
+            studentLinks.trainingMismatch.confidenceScoreLog,
+            "field file",
+          ),
+          asset(
+            "Training-to-deployment audit",
+            studentLinks.trainingMismatch.trainingToDeploymentAudit,
+            "tool",
+          ),
+          asset(
+            "Note v2 + decision log",
+            studentLinks.trainingMismatch.noteAndDecisionLog,
+            "brief",
+          ),
+          asset(
+            "FOREMAN damage screen",
+            studentLinks.trainingMismatch.foremanDamageScreen,
+            "field file",
+            true,
+          ),
+          asset(
+            "Wes accepted-screen memo",
+            studentLinks.trainingMismatch.wesAcceptedScreenMemo,
+            "brief",
+          ),
+          asset(
+            "Inspection inventory + output",
+            studentLinks.trainingMismatch.inspectionInventory,
+            "data",
+          ),
+        ],
+      },
+    ],
   },
   {
     id: "03-build",

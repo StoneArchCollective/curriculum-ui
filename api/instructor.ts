@@ -19,6 +19,8 @@ const M05_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M06_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
+const M07_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
@@ -27,9 +29,12 @@ const M05_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M06_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M07_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
   {
+    unit: "01-hired",
     title: "Run of day",
     note: "Browser-ready day plans from the instructor teaching pack.",
     links: [
@@ -68,6 +73,18 @@ const instructorGroups = [
     ],
   },
   {
+    unit: "02-doubt",
+    title: "Run of day",
+    note: "Browser-ready day plans from the instructor teaching pack.",
+    links: [
+      {
+        label: "M07 · DOES THE CONFIDENCE TRAVEL?",
+        url: `${M07_INSTRUCTOR_HTML}M07-run-of-day.html`,
+      },
+    ],
+  },
+  {
+    unit: "01-hired",
     title: "Reveal + answer keys",
     note: "Spoiler-bearing decks and solutions for the currently built work.",
     links: [
@@ -118,6 +135,22 @@ const instructorGroups = [
     ],
   },
   {
+    unit: "02-doubt",
+    title: "Reveal + answer keys",
+    note: "Spoiler-bearing decks and solutions for the currently built work.",
+    links: [
+      {
+        label: "M07 instructor reveal",
+        url: `${M07_RAW}teaching-pack/11-M07-training-mismatch/M07-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M07",
+        url: `${M07_RAW}teaching-pack/11-M07-training-mismatch/KEY-M07-answer-key.docx`,
+      },
+    ],
+  },
+  {
+    unit: "01-hired",
     title: "FOREMAN spoilers",
     note: "Machine outputs held back from the learner shell.",
     links: [
@@ -148,6 +181,7 @@ const instructorGroups = [
     ],
   },
   {
+    unit: "01-hired",
     title: "Run sheets + notes",
     note: "Instructor sequencing, file index, and bridge-use guidance.",
     links: [

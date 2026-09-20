@@ -363,10 +363,16 @@ function StudentShell() {
 }
 
 type InstructorGroup = {
+  unit: "01-hired" | "02-doubt";
   title: string;
   note: string;
   links: { label: string; url: string }[];
 };
+
+const instructorUnits = [
+  { id: "01-hired", number: "1", title: "Hired" },
+  { id: "02-doubt", number: "2", title: "Doubt" },
+] as const;
 
 function InstructorShell() {
   const [password, setPassword] = useState("");
@@ -472,35 +478,48 @@ function InstructorShell() {
             <div className="notice">
               <span>PACK STATUS</span>
               <p>
-                The M02 student and instructor decks, faculty brief, and run-of-day
-                pages use the merged teaching pack on main.
+                Student and instructor materials through M07 use the merged teaching
+                pack on main.
               </p>
             </div>
-            <section className="instructor-unit" aria-labelledby="instructor-unit-1-title">
-              <header className="instructor-unit__header">
-                <div className="instructor-unit__stamp">Unit 1</div>
-                <div>
-                  <p>Instructor teaching pack</p>
-                  <h2 id="instructor-unit-1-title">Hired</h2>
+            {instructorUnits.map((unit) => (
+              <section
+                className="instructor-unit"
+                aria-labelledby={`instructor-unit-${unit.number}-title`}
+                key={unit.id}
+              >
+                <header className="instructor-unit__header">
+                  <div className="instructor-unit__stamp">Unit {unit.number}</div>
+                  <div>
+                    <p>Instructor teaching pack</p>
+                    <h2 id={`instructor-unit-${unit.number}-title`}>{unit.title}</h2>
+                  </div>
+                </header>
+                <div className="instructor-groups">
+                  {groups
+                    .filter((group) => group.unit === unit.id)
+                    .map((group) => (
+                      <section key={group.title}>
+                        <span className="mono-label">RESTRICTED</span>
+                        <h2>{group.title}</h2>
+                        <p>{group.note}</p>
+                        <div>
+                          {group.links.map((link) => (
+                            <a
+                              href={link.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              key={link.url}
+                            >
+                              {link.label} <Arrow />
+                            </a>
+                          ))}
+                        </div>
+                      </section>
+                    ))}
                 </div>
-              </header>
-              <div className="instructor-groups">
-                {groups.map((group) => (
-                  <section key={group.title}>
-                    <span className="mono-label">RESTRICTED</span>
-                    <h2>{group.title}</h2>
-                    <p>{group.note}</p>
-                    <div>
-                      {group.links.map((link) => (
-                        <a href={link.url} target="_blank" rel="noreferrer" key={link.url}>
-                          {link.label} <Arrow />
-                        </a>
-                      ))}
-                    </div>
-                  </section>
-                ))}
-              </div>
-            </section>
+              </section>
+            ))}
           </div>
         )}
       </main>
