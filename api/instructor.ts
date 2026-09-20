@@ -13,10 +13,8 @@ type ApiResponse = {
 
 const RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/";
-const PR5_RAW =
-  "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/split-m02-decks-9d5e/";
-const PR7_HTML =
-  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
   {
@@ -25,23 +23,23 @@ const instructorGroups = [
     links: [
       {
         label: "WHY TEACH THIS WAY · FACULTY BRIEF",
-        url: "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/cursor/instructor-run-of-day-4604/teaching-pack/00-INSTRUCTOR/why-this-way.html",
+        url: "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/why-this-way.html",
       },
       {
         label: "RUN OF DAY · CONTENTS",
-        url: `${PR7_HTML}index.html`,
+        url: `${INSTRUCTOR_HTML}index.html`,
       },
       {
         label: "M01 · FIRST DAY",
-        url: `${PR7_HTML}M01-run-of-day.html`,
+        url: `${INSTRUCTOR_HTML}M01-run-of-day.html`,
       },
       {
         label: "M02 · MEASURE FIRST",
-        url: `${PR7_HTML}M02-run-of-day.html`,
+        url: `${INSTRUCTOR_HTML}M02-run-of-day.html`,
       },
       {
         label: "M03 · RUN OF DAY",
-        url: `${PR7_HTML}M03-run-of-day.html`,
+        url: `${INSTRUCTOR_HTML}M03-run-of-day.html`,
       },
     ],
   },
@@ -50,8 +48,8 @@ const instructorGroups = [
     note: "Spoiler-bearing decks and solutions for the currently built work.",
     links: [
       {
-        label: "M02 instructor reveal · PR #5 branch",
-        url: `${PR5_RAW}teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`,
+        label: "M02 instructor reveal",
+        url: `${RAW}teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`,
       },
       {
         label: "KEY · M01",
