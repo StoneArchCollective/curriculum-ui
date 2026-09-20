@@ -476,22 +476,31 @@ function InstructorShell() {
                 pages use the merged teaching pack on main.
               </p>
             </div>
-            <div className="instructor-groups">
-              {groups.map((group) => (
-                <section key={group.title}>
-                  <span className="mono-label">RESTRICTED</span>
-                  <h2>{group.title}</h2>
-                  <p>{group.note}</p>
-                  <div>
-                    {group.links.map((link) => (
-                      <a href={link.url} target="_blank" rel="noreferrer" key={link.url}>
-                        {link.label} <Arrow />
-                      </a>
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </div>
+            <section className="instructor-unit" aria-labelledby="instructor-unit-1-title">
+              <header className="instructor-unit__header">
+                <div className="instructor-unit__stamp">Unit 1</div>
+                <div>
+                  <p>Instructor teaching pack</p>
+                  <h2 id="instructor-unit-1-title">Hired</h2>
+                </div>
+              </header>
+              <div className="instructor-groups">
+                {groups.map((group) => (
+                  <section key={group.title}>
+                    <span className="mono-label">RESTRICTED</span>
+                    <h2>{group.title}</h2>
+                    <p>{group.note}</p>
+                    <div>
+                      {group.links.map((link) => (
+                        <a href={link.url} target="_blank" rel="noreferrer" key={link.url}>
+                          {link.label} <Arrow />
+                        </a>
+                      ))}
+                    </div>
+                  </section>
+                ))}
+              </div>
+            </section>
           </div>
         )}
       </main>

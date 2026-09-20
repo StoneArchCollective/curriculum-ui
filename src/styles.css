@@ -969,10 +969,58 @@ footer p {
   margin: 0;
 }
 
+.instructor-unit {
+  overflow: hidden;
+  border: 2px solid var(--girder);
+  background:
+    linear-gradient(rgb(111 143 175 / 16%), rgb(111 143 175 / 16%)),
+    var(--paper);
+  box-shadow: 0 20px 48px rgb(31 58 95 / 14%);
+}
+
+.instructor-unit__header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 118px 1fr;
+  gap: 28px;
+  padding: 28px clamp(24px, 4vw, 46px);
+  color: var(--white);
+  background: var(--girder);
+}
+
+.instructor-unit__stamp {
+  display: flex;
+  width: 106px;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  border: 4px double currentColor;
+  transform: rotate(-3deg);
+  font: 700 14px/1 "IBM Plex Mono", monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.instructor-unit__header p {
+  margin: 0 0 6px;
+  color: #b9c9d8;
+  font: 600 10px/1.2 "IBM Plex Mono", monospace;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.instructor-unit__header h2 {
+  margin: 0;
+  font: 700 clamp(42px, 5vw, 64px) / 0.9 "Barlow Condensed", sans-serif;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
 .instructor-groups {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
+  padding: clamp(18px, 3vw, 32px);
 }
 
 .instructor-groups section {
@@ -1252,6 +1300,16 @@ footer p {
 
   .instructor-groups {
     grid-template-columns: 1fr;
+  }
+
+  .instructor-unit__header {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .instructor-unit__stamp {
+    width: 92px;
+    height: 58px;
   }
 
   .notice {

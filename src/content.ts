@@ -322,6 +322,43 @@ export const units: Unit[] = [
 
 export const resourceGroups = [
   {
+    title: "Prerequisite review",
+    note: "Student self-check guides for foundational concepts",
+    links: [
+      asset(
+        "Probability and sampling",
+        studentLinks.prerequisiteReview.probabilityAndSampling,
+        "tool",
+      ),
+      asset(
+        "Code reading primer",
+        studentLinks.prerequisiteReview.codeReadingPrimer,
+        "tool",
+      ),
+      asset(
+        "Engineering reference cards",
+        studentLinks.prerequisiteReview.engineeringReferenceCards,
+        "tool",
+      ),
+      asset(
+        "Optional concepts",
+        studentLinks.prerequisiteReview.optionalConcepts,
+        "tool",
+      ),
+    ],
+  },
+  {
+    title: "Vocabulary",
+    note: "Interactive course terminology practice",
+    links: [
+      asset(
+        "Vocab lab · 163 terms",
+        studentLinks.vocabulary.vocabLab,
+        "tool",
+      ),
+    ],
+  },
+  {
     title: "Firm kit",
     note: "Approved ACMEJOB student identity assets",
     links: [

@@ -45,6 +45,23 @@ The upstream course `README.md` is explicitly excluded from the learner shell:
 it contains M02 outcome and reveal language. The in-app hero and job board are
 the spoiler-clean course landing.
 
+### Course resources
+
+These browser-rendered links use `htmlpreview.github.io` so the prerequisite
+self-check guides and vocabulary lab open directly from the Project files
+drawer.
+
+#### Prerequisite review
+
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/guides/probability-and-sampling.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/guides/code-reading-primer.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/guides/engineering-reference-cards.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/guides/optional-concepts.html`
+
+#### Vocabulary
+
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/vocab-lab/vocab-lab.html`
+
 ### M02
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/M02-student.pptx`
