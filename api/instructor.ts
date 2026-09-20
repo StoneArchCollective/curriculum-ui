@@ -14,13 +14,13 @@ type ApiResponse = {
 const RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M04_RAW =
-  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/";
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M05_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
-  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m04-one-number-6a74/teaching-pack/00-INSTRUCTOR/run-of-day/";
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M05_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
