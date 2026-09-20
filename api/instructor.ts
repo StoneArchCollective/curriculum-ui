@@ -12,9 +12,9 @@ type ApiResponse = {
 };
 
 const RAW =
-  "https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/";
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const INSTRUCTOR_HTML =
-  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
   {
@@ -23,7 +23,7 @@ const instructorGroups = [
     links: [
       {
         label: "WHY TEACH THIS WAY · FACULTY BRIEF",
-        url: "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/why-this-way.html",
+        url: "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/why-this-way.html",
       },
       {
         label: "RUN OF DAY · CONTENTS",

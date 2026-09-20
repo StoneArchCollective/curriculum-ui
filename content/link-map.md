@@ -30,8 +30,8 @@ Only these resources may be linked from the learner shell.
 
 ### Orientation
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/02-M01-first-day/M01-slides-first-day.pptx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/01-BRAND-KIT/ACMEJOB-brand-kit.zip`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/02-M01-first-day/M01-slides-first-day.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/01-BRAND-KIT/ACMEJOB-brand-kit.zip`
 
 The upstream course `README.md` is explicitly excluded from the learner shell:
 it contains M02 outcome and reveal language. The in-app hero and job board are
@@ -39,27 +39,27 @@ the spoiler-clean course landing.
 
 ### M02
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/M02-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/M02-student.pptx`
 
 Main’s combined `M02-slides-measurement.pptx` is forbidden.
 
 ### Case B student packet
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.md`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/sensors_startup.csv`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/FOREMAN_PASS_report.md`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/install_startup_note.md`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.md`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/sensors_startup.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/FOREMAN_PASS_report.md`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/install_startup_note.md`
 
 ### Bridge visuals
 
 Keep all embedded schematic and fictional-site disclaimers visible.
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/06-BRIDGE/otter-bend-lift-bridge-flat-claude.png`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/06-BRIDGE/otter-bend-general-elevation.png`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/06-BRIDGE/otter-bend-site-location.png`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/06-BRIDGE/otter-bend-location-map.png`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/06-BRIDGE/otter-bend-strain-gauge-array.png`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/06-BRIDGE/otter-bend-lift-bridge-flat-claude.png`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/06-BRIDGE/otter-bend-general-elevation.png`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/06-BRIDGE/otter-bend-site-location.png`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/06-BRIDGE/otter-bend-location-map.png`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/06-BRIDGE/otter-bend-strain-gauge-array.png`
 
 ## INSTRUCTOR allowlist
 
@@ -71,32 +71,32 @@ These browser-rendered links use `htmlpreview.github.io` because the teaching
 pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 `text/plain`.
 
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/why-this-way.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/index.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/M01-run-of-day.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/run-of-day/M03-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/why-this-way.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/index.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M01-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M03-run-of-day.html`
 
 ### Reveal and keys
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/02-M01-first-day/KEY-M01-answer-key.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/KEY-M02-answer-key.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/04-M03-hallucination/KEY-M03-answer-key.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/M02-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/02-M01-first-day/KEY-M01-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/KEY-M02-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/KEY-M03-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/02-M01-first-day/H1-03-foreman-deck-assessment.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/03-M02-measurement/H2-03-foreman-baseline-check.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/04-M03-hallucination/H3-02-foreman-spec-summary.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/02-M01-first-day/H1-03-foreman-deck-assessment.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/H2-03-foreman-baseline-check.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-02-foreman-spec-summary.docx`
 
 ### Run sheets and notes
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/INSTRUCTOR-GUIDE-M01-M03.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/FILE-INDEX.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/00-INSTRUCTOR/BRIDGE-VISUALS.txt`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Engineering-Design-and-AI-Simulation/main/teaching-pack/06-BRIDGE/README.txt`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/INSTRUCTOR-GUIDE-M01-M03.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/FILE-INDEX.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/BRIDGE-VISUALS.txt`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/06-BRIDGE/README.txt`
 
 ## DO NOT surface
 
