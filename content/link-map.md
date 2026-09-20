@@ -9,13 +9,12 @@ constants live only in `api/instructor.ts`.
 M04 teaching-pack PR #8 is merged. Every M04 URL below, including the updated
 instructor guide, is pinned to `main`.
 
-M05 is hung provisionally from teaching-pack PR #9. Every M05 URL below is
-pinned to branch `cursor/build-m05-overnight-alarm-447d` until that PR is
-merged.
+M05 teaching-pack PR #9 is merged. Every M05 URL below is pinned to `main`.
 
 M06 is hung provisionally from teaching-pack PR #10. Every M06 URL below is
 pinned to branch `cursor/build-m06-alarm-audit-34e0` until that PR is merged.
-M04 and M05 remain pinned independently to their respective branches.
+M04 and M05 are pinned to `main`; M06 remains pinned independently to its
+open PR branch.
 
 ## Brand lock
 
@@ -74,12 +73,12 @@ instructor-only.
 
 ### M05 · The 3 a.m. alarm
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/M05-student.pptx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/H5-01-diane-overnight-dispatch.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/H5-03-agent-loop-audit.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/H5-04-note-v1-and-HW3.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/feed.csv`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/threshold_config.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/M05-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/H5-01-diane-overnight-dispatch.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/H5-03-agent-loop-audit.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/H5-04-note-v1-and-HW3.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/feed.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/threshold_config.csv`
 
 ### M06 · Real—or an outlier? / alarm audit
 
@@ -128,7 +127,7 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M03-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M04-run-of-day.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/00-INSTRUCTOR/run-of-day/M05-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M05-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/00-INSTRUCTOR/run-of-day/M06-run-of-day.html`
 
 ### Reveal and keys
@@ -139,8 +138,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/KEY-M03-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/08-M04-one-number/M04-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/08-M04-one-number/KEY-M04-answer-key.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/M05-instructor-reveal.pptx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/KEY-M05-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/M05-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/KEY-M05-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/M06-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/10-M06-alarm-audit/KEY-M06-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
@@ -151,8 +150,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/03-M02-measurement/H2-03-foreman-baseline-check.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/04-M03-hallucination/H3-02-foreman-spec-summary.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/08-M04-one-number/H4-03-foreman-core-summary.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/H5-02-FOREMAN-alarm-report.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/09-M05-overnight-alarm/FOREMAN-overnight-run.log`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/H5-02-FOREMAN-alarm-report.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/09-M05-overnight-alarm/FOREMAN-overnight-run.log`
 
 ### Run sheets and notes
 

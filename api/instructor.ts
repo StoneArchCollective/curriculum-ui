@@ -16,7 +16,7 @@ const RAW =
 const M04_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M05_RAW =
-  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/";
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M06_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/";
 const INSTRUCTOR_HTML =
@@ -24,7 +24,7 @@ const INSTRUCTOR_HTML =
 const M04_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M05_INSTRUCTOR_HTML =
-  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m05-overnight-alarm-447d/teaching-pack/00-INSTRUCTOR/run-of-day/";
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M06_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m06-alarm-audit-34e0/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
