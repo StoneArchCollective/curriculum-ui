@@ -478,8 +478,8 @@ function InstructorShell() {
             <div className="notice">
               <span>PACK STATUS</span>
               <p>
-                Student and instructor materials through M13 use the merged teaching
-                pack on main. M14 is pinned to the open Exam 1 teaching-pack branch.
+                Student and instructor materials through M14 use the merged teaching
+                pack on main.
               </p>
             </div>
             {instructorUnits.map((unit) => (

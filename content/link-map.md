@@ -21,8 +21,7 @@ M08 teaching pack is merged. Every M08 URL below is pinned to `main`.
 M09–M13 teaching packs are merged. Every M09–M13 URL below is
 pinned to `main`.
 
-M14 teaching-pack PR #18 is open. Every M14 URL below is pinned to
-`cursor/build-m14-exam-1-e69f`.
+M14 teaching-pack PR #18 is merged. Every M14 URL below is pinned to `main`.
 
 ## Brand lock
 
@@ -242,13 +241,13 @@ instructor-only.
 
 ### M14 · Exam 1 · Overweight permit
 
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/EX1-01-student-exam-booklet.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/EX1-02-reference-sheet.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/M14-exam-evidence.xlsx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/M14-control-gauge-test.csv`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/FOREMAN-M14-permit-recommendation.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/FOREMAN-M14-screening-chart.png`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/M14-exam-launch.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/EX1-01-student-exam-booklet.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/EX1-02-reference-sheet.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/M14-exam-evidence.xlsx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/M14-control-gauge-test.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/FOREMAN-M14-permit-recommendation.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/FOREMAN-M14-screening-chart.png`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/M14-exam-launch.pptx`
 
 `EX1-03-instructor-rubric.docx`, `KEY-M14-answer-key.docx`,
 `M14-instructor-later-review.pptx`, and the M14 run of day remain
@@ -297,7 +296,7 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M11-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M12-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M13-run-of-day.html`
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/00-INSTRUCTOR/run-of-day/M14-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M14-run-of-day.html`
 
 ### Reveal and keys
 
@@ -325,9 +324,9 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/KEY-M12-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/M13-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/KEY-M13-answer-key.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/EX1-03-instructor-rubric.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/KEY-M14-answer-key.docx`
-- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/M14-instructor-later-review.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/EX1-03-instructor-rubric.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/KEY-M14-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/18-M14-exam-1-overweight-permit/M14-instructor-later-review.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
