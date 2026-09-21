@@ -34,7 +34,7 @@ const M12_RAW =
 const M13_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M14_RAW =
-  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/";
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
@@ -58,7 +58,7 @@ const M12_INSTRUCTOR_HTML =
 const M13_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M14_INSTRUCTOR_HTML =
-  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/00-INSTRUCTOR/run-of-day/";
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
   {
