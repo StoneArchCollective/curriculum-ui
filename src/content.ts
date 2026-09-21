@@ -349,6 +349,74 @@ export const units: Unit[] = [
           ),
         ],
       },
+      {
+        id: "m08",
+        number: "M08",
+        title: "A strong fit can still mislead.",
+        kicker: "Spurious correlation / Thermal confound",
+        status: "open",
+        summary:
+          "Diane believes FOREMAN’s strong date fit supports deterioration. Reproduce the relationship, hunt for a hidden driver, and bound what the evidence can support.",
+        assignment: "HW4 begins at M08; Unit 2 Note v2 continues from M07.",
+        assets: [
+          asset(
+            "M08 student deck",
+            studentLinks.spuriousCorrelation.m08StudentDeck,
+            "slides",
+          ),
+          asset(
+            "FOREMAN deterioration report",
+            studentLinks.spuriousCorrelation.foremanDeteriorationReport,
+            "field file",
+            true,
+          ),
+          asset(
+            "Evidence register + data dictionary",
+            studentLinks.spuriousCorrelation.dataGuide,
+            "field file",
+          ),
+          asset(
+            "Regression hunt",
+            studentLinks.spuriousCorrelation.regressionHunt,
+            "tool",
+          ),
+          asset(
+            "Correlation, mechanism + claim boundary",
+            studentLinks.spuriousCorrelation.conceptsAndMechanism,
+            "tool",
+          ),
+          asset(
+            "G4 strain feed",
+            studentLinks.spuriousCorrelation.feed,
+            "data",
+          ),
+          asset(
+            "Weather-station record",
+            studentLinks.spuriousCorrelation.weatherStation,
+            "data",
+          ),
+          asset(
+            "Regression summary",
+            studentLinks.spuriousCorrelation.regressionSummary,
+            "data",
+          ),
+          asset(
+            "Strain-temperature analysis",
+            studentLinks.spuriousCorrelation.strainTemperatureAnalysis,
+            "data",
+          ),
+          asset(
+            "HW4 · Temperature-corrected strain",
+            studentLinks.spuriousCorrelation.homeworkTemperatureCorrection,
+            "brief",
+          ),
+          asset(
+            "Unit 2 Note v2 + decision log",
+            studentLinks.spuriousCorrelation.noteAndDecisionLog,
+            "brief",
+          ),
+        ],
+      },
     ],
   },
   {
