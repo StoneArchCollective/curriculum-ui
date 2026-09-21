@@ -18,6 +18,9 @@ M07 teaching pack is merged. Every M07 URL below is pinned to `main`.
 
 M08 teaching pack is merged. Every M08 URL below is pinned to `main`.
 
+M09 and M10 teaching packs are merged. Every M09 and M10 URL below is pinned
+to `main`.
+
 ## Brand lock
 
 This is ACMEJOB.Ai, not Stone Arch Collective:
@@ -145,6 +148,44 @@ instructor-only.
 `KEY-M08-answer-key.docx` and `M08-instructor-reveal.pptx` remain
 instructor-only.
 
+### M09 · To the single cycle.
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/M09-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-01-fatigue-evidence-guide.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-02-precision-audit.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-03-concepts-and-reporting.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-04-random-sampling-lab.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-05-core-sampling-frame-audit.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-06-note-v2-and-decision-log.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/FOREMAN-M09-fatigue-life-output.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/M09-fatigue-summary.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/M09-random-samples-n8.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/core_population_200_simulated.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/cores_2027.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/fatigue_tests.csv`
+
+`KEY-M09-answer-key.docx` and `M09-instructor-reveal.pptx` remain
+instructor-only.
+
+### M10 · Did the deck get worse?
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-01-coupon-interval-warmup.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-02-paired-load-test-guide.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-03-signal-v-noise-worksheet.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-04-concepts-and-language.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-05-HW5-peak-strain-interval.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-06-note-v2-and-decision-log.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/FOREMAN-M10-deterioration-claim.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-interval-summary.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-paired-location-summary.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-test-control-check.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/coupons.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/loadtest_2019_2027.csv`
+
+`KEY-M10-answer-key.docx` and `M10-instructor-reveal.pptx` remain
+instructor-only.
+
 ### Case B student packet
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
@@ -183,6 +224,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M06-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M07-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M08-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M09-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M10-run-of-day.html`
 
 ### Reveal and keys
 
@@ -200,6 +243,10 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/KEY-M07-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/M08-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/KEY-M08-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/M09-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/KEY-M09-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/KEY-M10-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
@@ -224,7 +271,7 @@ The learner shell must not link, preview, index, or search-display:
 
 - the M02 instructor reveal;
 - any `KEY`, `INSTRUCTOR`, `REVEAL`, `answer-key`, `speaker-notes`, or `spoiler` path;
-- the M08 instructor reveal or answer key;
+- the M08–M10 instructor reveals or answer keys;
 - H1-03, H2-03, H3-02, H4-03, H5-02, or `FOREMAN-overnight-run.log`;
 - any `teaching-pack/00-INSTRUCTOR/` path;
 - the Case B instructor key;
