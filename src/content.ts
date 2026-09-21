@@ -417,6 +417,162 @@ export const units: Unit[] = [
           ),
         ],
       },
+      {
+        id: "m09",
+        number: "M09",
+        title: "To the single cycle.",
+        kicker: "False precision / Sampling",
+        status: "open",
+        summary:
+          "FOREMAN reports 41,872,316 cycles with no range. Trace the digits, compare spread with display resolution, and audit what the sampling frame can support.",
+        assignment: "Unit 2 Note v2 continues; no new numbered homework.",
+        assets: [
+          asset(
+            "M09 student deck",
+            studentLinks.falsePrecision.m09StudentDeck,
+            "slides",
+          ),
+          asset(
+            "FOREMAN fatigue-life output",
+            studentLinks.falsePrecision.foremanFatigueLifeOutput,
+            "field file",
+            true,
+          ),
+          asset(
+            "Fatigue evidence guide",
+            studentLinks.falsePrecision.fatigueEvidenceGuide,
+            "field file",
+          ),
+          asset(
+            "Precision audit",
+            studentLinks.falsePrecision.precisionAudit,
+            "tool",
+          ),
+          asset(
+            "Concepts + reporting boundary",
+            studentLinks.falsePrecision.conceptsAndReporting,
+            "tool",
+          ),
+          asset(
+            "Random sampling lab",
+            studentLinks.falsePrecision.randomSamplingLab,
+            "tool",
+          ),
+          asset(
+            "Core sampling-frame audit",
+            studentLinks.falsePrecision.coreSamplingFrameAudit,
+            "tool",
+          ),
+          asset(
+            "Fatigue summary",
+            studentLinks.falsePrecision.fatigueSummary,
+            "data",
+          ),
+          asset(
+            "Random samples · n = 8",
+            studentLinks.falsePrecision.randomSamples,
+            "data",
+          ),
+          asset(
+            "Simulated core population",
+            studentLinks.falsePrecision.corePopulation,
+            "data",
+          ),
+          asset(
+            "Otter Bend cores",
+            studentLinks.falsePrecision.cores,
+            "data",
+          ),
+          asset(
+            "Fatigue tests",
+            studentLinks.falsePrecision.fatigueTests,
+            "data",
+          ),
+          asset(
+            "Unit 2 Note v2 + decision log",
+            studentLinks.falsePrecision.noteAndDecisionLog,
+            "brief",
+          ),
+        ],
+      },
+      {
+        id: "m10",
+        number: "M10",
+        title: "Did the deck get worse?",
+        kicker: "Deterioration vs. noise / Confidence intervals",
+        status: "open",
+        summary:
+          "FOREMAN turns a 6% paired increase and p = 0.04 into “deterioration confirmed.” Build intervals, audit matched controls, and defend what the evidence supports.",
+        assignment: "HW5 · Peak strain confidence interval; Unit 2 Note v2 continues.",
+        assets: [
+          asset(
+            "M10 student deck",
+            studentLinks.deteriorationVsNoise.m10StudentDeck,
+            "slides",
+          ),
+          asset(
+            "FOREMAN deterioration claim",
+            studentLinks.deteriorationVsNoise.foremanDeteriorationClaim,
+            "field file",
+            true,
+          ),
+          asset(
+            "Coupon interval warm-up",
+            studentLinks.deteriorationVsNoise.couponIntervalWarmup,
+            "tool",
+          ),
+          asset(
+            "Paired load-test guide",
+            studentLinks.deteriorationVsNoise.pairedLoadTestGuide,
+            "field file",
+          ),
+          asset(
+            "Signal vs. noise worksheet",
+            studentLinks.deteriorationVsNoise.signalVsNoiseWorksheet,
+            "tool",
+          ),
+          asset(
+            "Concepts + language reference",
+            studentLinks.deteriorationVsNoise.conceptsAndLanguage,
+            "tool",
+          ),
+          asset(
+            "Coupons",
+            studentLinks.deteriorationVsNoise.coupons,
+            "data",
+          ),
+          asset(
+            "Paired load tests · 2019–2027",
+            studentLinks.deteriorationVsNoise.loadTest,
+            "data",
+          ),
+          asset(
+            "Interval summary",
+            studentLinks.deteriorationVsNoise.intervalSummary,
+            "data",
+          ),
+          asset(
+            "Paired-location summary",
+            studentLinks.deteriorationVsNoise.pairedLocationSummary,
+            "data",
+          ),
+          asset(
+            "Test-control check",
+            studentLinks.deteriorationVsNoise.testControlCheck,
+            "data",
+          ),
+          asset(
+            "HW5 · Peak strain interval",
+            studentLinks.deteriorationVsNoise.homeworkPeakStrainInterval,
+            "brief",
+          ),
+          asset(
+            "Unit 2 Note v2 + decision log",
+            studentLinks.deteriorationVsNoise.noteAndDecisionLog,
+            "brief",
+          ),
+        ],
+      },
     ],
   },
   {

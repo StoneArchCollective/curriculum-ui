@@ -23,6 +23,10 @@ const M07_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M08_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
+const M09_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
+const M10_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
@@ -34,6 +38,10 @@ const M06_INSTRUCTOR_HTML =
 const M07_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M08_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M09_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M10_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
@@ -88,6 +96,14 @@ const instructorGroups = [
       {
         label: "M08 · A STRONG FIT CAN STILL MISLEAD",
         url: `${M08_INSTRUCTOR_HTML}M08-run-of-day.html`,
+      },
+      {
+        label: "M09 · TO THE SINGLE CYCLE",
+        url: `${M09_INSTRUCTOR_HTML}M09-run-of-day.html`,
+      },
+      {
+        label: "M10 · DID THE DECK GET WORSE?",
+        url: `${M10_INSTRUCTOR_HTML}M10-run-of-day.html`,
       },
     ],
   },
@@ -162,6 +178,22 @@ const instructorGroups = [
       {
         label: "KEY · M08",
         url: `${M08_RAW}teaching-pack/12-M08-spurious-correlation/KEY-M08-answer-key.docx`,
+      },
+      {
+        label: "M09 instructor reveal",
+        url: `${M09_RAW}teaching-pack/13-M09-false-precision/M09-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M09",
+        url: `${M09_RAW}teaching-pack/13-M09-false-precision/KEY-M09-answer-key.docx`,
+      },
+      {
+        label: "M10 instructor reveal",
+        url: `${M10_RAW}teaching-pack/14-M10-deterioration-v-noise/M10-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M10",
+        url: `${M10_RAW}teaching-pack/14-M10-deterioration-v-noise/KEY-M10-answer-key.docx`,
       },
     ],
   },

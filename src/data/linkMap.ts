@@ -128,6 +128,62 @@ export const studentLinks = {
     weatherStation:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/weather_station.csv",
   },
+  falsePrecision: {
+    m09StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/M09-student.pptx",
+    fatigueEvidenceGuide:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-01-fatigue-evidence-guide.docx",
+    precisionAudit:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-02-precision-audit.docx",
+    conceptsAndReporting:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-03-concepts-and-reporting.docx",
+    randomSamplingLab:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-04-random-sampling-lab.docx",
+    coreSamplingFrameAudit:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-05-core-sampling-frame-audit.docx",
+    noteAndDecisionLog:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/H9-06-note-v2-and-decision-log.docx",
+    foremanFatigueLifeOutput:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/FOREMAN-M09-fatigue-life-output.docx",
+    fatigueSummary:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/M09-fatigue-summary.csv",
+    randomSamples:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/M09-random-samples-n8.csv",
+    corePopulation:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/core_population_200_simulated.csv",
+    cores:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/cores_2027.csv",
+    fatigueTests:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/fatigue_tests.csv",
+  },
+  deteriorationVsNoise: {
+    m10StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-student.pptx",
+    couponIntervalWarmup:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-01-coupon-interval-warmup.docx",
+    pairedLoadTestGuide:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-02-paired-load-test-guide.docx",
+    signalVsNoiseWorksheet:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-03-signal-v-noise-worksheet.docx",
+    conceptsAndLanguage:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-04-concepts-and-language.docx",
+    homeworkPeakStrainInterval:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-05-HW5-peak-strain-interval.docx",
+    noteAndDecisionLog:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/H10-06-note-v2-and-decision-log.docx",
+    foremanDeteriorationClaim:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/FOREMAN-M10-deterioration-claim.docx",
+    intervalSummary:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-interval-summary.csv",
+    pairedLocationSummary:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-paired-location-summary.csv",
+    testControlCheck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-test-control-check.csv",
+    coupons:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/coupons.csv",
+    loadTest:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/loadtest_2019_2027.csv",
+  },
   caseB: {
     studentAskDocx:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",
