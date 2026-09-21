@@ -29,6 +29,8 @@ const M10_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M11_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
+const M12_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
@@ -46,6 +48,8 @@ const M09_INSTRUCTOR_HTML =
 const M10_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M11_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M12_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
@@ -112,6 +116,10 @@ const instructorGroups = [
       {
         label: "M11 · PERMISSION TO PUBLISH",
         url: `${M11_INSTRUCTOR_HTML}M11-run-of-day.html`,
+      },
+      {
+        label: "M12 · THE COUNTY READS CHARTS, NOT APPENDICES",
+        url: `${M12_INSTRUCTOR_HTML}M12-run-of-day.html`,
       },
     ],
   },
@@ -210,6 +218,14 @@ const instructorGroups = [
       {
         label: "KEY · M11",
         url: `${M11_RAW}teaching-pack/15-M11-dashboard-publish/KEY-M11-answer-key.docx`,
+      },
+      {
+        label: "M12 instructor reveal",
+        url: `${M12_RAW}teaching-pack/16-M12-misleading-charts/M12-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M12",
+        url: `${M12_RAW}teaching-pack/16-M12-misleading-charts/KEY-M12-answer-key.docx`,
       },
     ],
   },

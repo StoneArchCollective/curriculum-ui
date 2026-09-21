@@ -478,7 +478,7 @@ function InstructorShell() {
             <div className="notice">
               <span>PACK STATUS</span>
               <p>
-                Student and instructor materials through M10 use the merged teaching
+                Student and instructor materials through M12 use the merged teaching
                 pack on main.
               </p>
             </div>

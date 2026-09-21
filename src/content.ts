@@ -622,6 +622,88 @@ export const units: Unit[] = [
           ),
         ],
       },
+      {
+        id: "m12",
+        number: "M12",
+        title: "The county reads charts, not appendices.",
+        kicker: "Misleading charts / Exam 1 review",
+        status: "open",
+        summary:
+          "FOREMAN calls an Otter Bend chart pack publish-ready. Review each tile before it ships, commit an approve, fix, or pull decision, and redraw the charts you refuse as delivered.",
+        assignment:
+          "HW6 · Two honest redraws + Unit 2 Note v2; complete the code-reading primer in Project files before M15.",
+        assets: [
+          asset(
+            "M12 student deck",
+            studentLinks.misleadingCharts.m12StudentDeck,
+            "slides",
+          ),
+          asset(
+            "FOREMAN interim chart pack",
+            studentLinks.misleadingCharts.foremanInterimChartPack,
+            "field file",
+            true,
+          ),
+          asset(
+            "Tile A · Daily peak strain",
+            studentLinks.misleadingCharts.tileA,
+            "visual",
+            true,
+          ),
+          asset(
+            "Tile B · Hourly traffic",
+            studentLinks.misleadingCharts.tileB,
+            "visual",
+            true,
+          ),
+          asset(
+            "Tile C · Vehicle-class comparison",
+            studentLinks.misleadingCharts.tileC,
+            "visual",
+            true,
+          ),
+          asset(
+            "County chart review",
+            studentLinks.misleadingCharts.chartHunt,
+            "tool",
+          ),
+          asset(
+            "Chart choice + axis guide",
+            studentLinks.misleadingCharts.chartChoiceAndAxisGuide,
+            "tool",
+          ),
+          asset(
+            "Redraw lab",
+            studentLinks.misleadingCharts.redrawLab,
+            "tool",
+          ),
+          asset(
+            "HW6 · Two honest redraws",
+            studentLinks.misleadingCharts.homeworkTwoRedraws,
+            "brief",
+          ),
+          asset(
+            "Exam 1 review · Units 1–2",
+            studentLinks.misleadingCharts.examOneReview,
+            "tool",
+          ),
+          asset(
+            "Daily peak strain",
+            studentLinks.misleadingCharts.dailyPeakStrain,
+            "data",
+          ),
+          asset(
+            "Hourly traffic",
+            studentLinks.misleadingCharts.hourlyTraffic,
+            "data",
+          ),
+          asset(
+            "Vehicle-class counts",
+            studentLinks.misleadingCharts.vehicleClassCounts,
+            "data",
+          ),
+        ],
+      },
     ],
   },
   {
