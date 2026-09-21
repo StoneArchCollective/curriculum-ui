@@ -770,6 +770,54 @@ export const units: Unit[] = [
           ),
         ],
       },
+      {
+        id: "m14",
+        number: "M14",
+        title: "Exam 1 · Overweight permit",
+        kicker: "Exam 1 / Applied practical",
+        status: "open",
+        summary:
+          "Applied practical closing Unit 2: use the evidence and FOREMAN recommendation to decide the overweight permit. 75 writing minutes.",
+        assets: [
+          asset(
+            "Exam 1 student booklet",
+            studentLinks.examOne.studentExamBooklet,
+            "brief",
+          ),
+          asset(
+            "Exam 1 reference sheet",
+            studentLinks.examOne.referenceSheet,
+            "tool",
+          ),
+          asset(
+            "Exam evidence workbook",
+            studentLinks.examOne.examEvidence,
+            "data",
+          ),
+          asset(
+            "Control gauge test · accessible CSV",
+            studentLinks.examOne.controlGaugeTest,
+            "data",
+          ),
+          asset(
+            "FOREMAN permit recommendation",
+            studentLinks.examOne.foremanPermitRecommendation,
+            "field file",
+            true,
+          ),
+          asset(
+            "FOREMAN screening chart",
+            studentLinks.examOne.foremanScreeningChart,
+            "visual",
+            true,
+          ),
+          asset(
+            "M14 exam launch",
+            studentLinks.examOne.examLaunch,
+            "slides",
+          ),
+        ],
+      },
     ],
   },
   {

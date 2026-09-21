@@ -250,6 +250,22 @@ export const studentLinks = {
     unitTwoDebrief:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-04-unit-2-debrief.docx",
   },
+  examOne: {
+    studentExamBooklet:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/EX1-01-student-exam-booklet.docx",
+    referenceSheet:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/EX1-02-reference-sheet.docx",
+    examEvidence:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/M14-exam-evidence.xlsx",
+    controlGaugeTest:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/M14-control-gauge-test.csv",
+    foremanPermitRecommendation:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/FOREMAN-M14-permit-recommendation.docx",
+    foremanScreeningChart:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/FOREMAN-M14-screening-chart.png",
+    examLaunch:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/18-M14-exam-1-overweight-permit/M14-exam-launch.pptx",
+  },
   caseB: {
     studentAskDocx:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",
