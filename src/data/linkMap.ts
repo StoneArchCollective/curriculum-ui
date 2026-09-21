@@ -200,6 +200,56 @@ export const studentLinks = {
     fiveTileDashboard:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/M11-five-tile-dashboard.png",
   },
+  misleadingCharts: {
+    m12StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-student.pptx",
+    foremanInterimChartPack:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/FOREMAN-M12-interim-chart-pack.docx",
+    chartHunt:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-01-chart-hunt.docx",
+    chartChoiceAndAxisGuide:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-02-chart-choice-and-axis-guide.docx",
+    redrawLab:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-03-redraw-lab.docx",
+    homeworkTwoRedraws:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-04-HW6-two-redraws.docx",
+    examOneReview:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-05-exam-1-review.docx",
+    dailyPeakStrain:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-daily-peak-strain.csv",
+    hourlyTraffic:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-hourly-traffic.csv",
+    vehicleClassCounts:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-vehicle-class-counts.csv",
+    tileA:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-tile-A.png",
+    tileB:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-tile-B.png",
+    tileC:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-tile-C.png",
+  },
+  wesHandoff: {
+    m13StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/M13-student.pptx",
+    partialHandoffNote:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/WES-M13-partial-handoff-note.docx",
+    handoffWorkbook:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/wes_handoff.xlsx",
+    foremanPipelineLogDocument:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/FOREMAN-M13-pipeline-log.docx",
+    foremanPipelineLogData:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/FOREMAN-M13-pipeline-log.csv",
+    pipelineOutput:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/M13-pipeline-output.csv",
+    pipelineTraceHunt:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-01-pipeline-trace-hunt.docx",
+    pipelineConcepts:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-02-pipeline-concepts.docx",
+    noteAndUncheckedLog:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-03-note-v2-unchecked-log.docx",
+    unitTwoDebrief:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-04-unit-2-debrief.docx",
+  },
   caseB: {
     studentAskDocx:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",

@@ -18,8 +18,8 @@ M07 teaching pack is merged. Every M07 URL below is pinned to `main`.
 
 M08 teaching pack is merged. Every M08 URL below is pinned to `main`.
 
-M09, M10, and M11 teaching packs are merged. Every M09, M10, and M11 URL
-below is pinned to `main`.
+M09–M13 teaching packs are merged. Every M09–M13 URL below is
+pinned to `main`.
 
 ## Brand lock
 
@@ -200,6 +200,43 @@ instructor-only.
 instructor-only. `M11-dashboard-tile-register.csv` contains explicit designed
 failure labels, so it is not exposed in the learner shell.
 
+### M12 · The county reads charts, not appendices.
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/FOREMAN-M12-interim-chart-pack.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-01-chart-hunt.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-02-chart-choice-and-axis-guide.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-03-redraw-lab.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-04-HW6-two-redraws.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/H12-05-exam-1-review.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-daily-peak-strain.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-hourly-traffic.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-vehicle-class-counts.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-tile-A.png`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-tile-B.png`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-tile-C.png`
+
+The async assignment uses the code-reading primer already linked in the
+Project files tray; `H12-06-async-code-reading-primer.docx` is not duplicated
+in the meeting. `KEY-M12-answer-key.docx`, `M12-instructor-reveal.pptx`, and
+the two model-fix images remain instructor-only.
+
+### M13 · Wes’s handoff.
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/M13-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/WES-M13-partial-handoff-note.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/wes_handoff.xlsx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/FOREMAN-M13-pipeline-log.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/FOREMAN-M13-pipeline-log.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/M13-pipeline-output.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-01-pipeline-trace-hunt.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-02-pipeline-concepts.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-03-note-v2-unchecked-log.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-04-unit-2-debrief.docx`
+
+`KEY-M13-answer-key.docx` and `M13-instructor-reveal.pptx` remain
+instructor-only.
+
 ### Case B student packet
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
@@ -241,6 +278,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M09-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M10-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M11-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M12-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M13-run-of-day.html`
 
 ### Reveal and keys
 
@@ -264,6 +303,10 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/KEY-M10-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/M11-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/KEY-M11-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/KEY-M12-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/M13-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/KEY-M13-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
@@ -288,7 +331,9 @@ The learner shell must not link, preview, index, or search-display:
 
 - the M02 instructor reveal;
 - any `KEY`, `INSTRUCTOR`, `REVEAL`, `answer-key`, `speaker-notes`, or `spoiler` path;
-- the M08–M11 instructor reveals or answer keys;
+- the M08–M12 instructor reveals or answer keys;
+- the M13 instructor reveal or answer key;
+- the M12 model-fix images;
 - `M11-dashboard-tile-register.csv`, whose designed-status column names the
   two gated failures;
 - H1-03, H2-03, H3-02, H4-03, H5-02, or `FOREMAN-overnight-run.log`;
