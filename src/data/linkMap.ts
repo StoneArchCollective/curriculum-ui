@@ -228,6 +228,28 @@ export const studentLinks = {
     tileC:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/16-M12-misleading-charts/M12-tile-C.png",
   },
+  wesHandoff: {
+    m13StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/M13-student.pptx",
+    partialHandoffNote:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/WES-M13-partial-handoff-note.docx",
+    handoffWorkbook:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/wes_handoff.xlsx",
+    foremanPipelineLogDocument:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/FOREMAN-M13-pipeline-log.docx",
+    foremanPipelineLogData:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/FOREMAN-M13-pipeline-log.csv",
+    pipelineOutput:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/M13-pipeline-output.csv",
+    pipelineTraceHunt:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-01-pipeline-trace-hunt.docx",
+    pipelineConcepts:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-02-pipeline-concepts.docx",
+    noteAndUncheckedLog:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-03-note-v2-unchecked-log.docx",
+    unitTwoDebrief:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/17-M13-wes-handoff/H13-04-unit-2-debrief.docx",
+  },
   caseB: {
     studentAskDocx:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",

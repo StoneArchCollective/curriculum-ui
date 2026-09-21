@@ -704,6 +704,72 @@ export const units: Unit[] = [
           ),
         ],
       },
+      {
+        id: "m13",
+        number: "M13",
+        title: "Wes’s handoff.",
+        kicker: "Data pipelines / Silent ingestion",
+        status: "open",
+        summary:
+          "Wes delivers a late, partial workbook, and FOREMAN runs it without stopping to ask. Trace one value from source to output, document what stayed unchecked, and place the human review checkpoint.",
+        assignment:
+          "One-value pipeline trace; Unit 2 Note v2 + unchecked-column log; Unit 2 debrief.",
+        assets: [
+          asset(
+            "M13 student deck",
+            studentLinks.wesHandoff.m13StudentDeck,
+            "slides",
+          ),
+          asset(
+            "Wes partial handoff note",
+            studentLinks.wesHandoff.partialHandoffNote,
+            "field file",
+          ),
+          asset(
+            "Wes handoff workbook",
+            studentLinks.wesHandoff.handoffWorkbook,
+            "data",
+          ),
+          asset(
+            "FOREMAN pipeline log",
+            studentLinks.wesHandoff.foremanPipelineLogDocument,
+            "field file",
+            true,
+          ),
+          asset(
+            "FOREMAN pipeline log · CSV",
+            studentLinks.wesHandoff.foremanPipelineLogData,
+            "data",
+            true,
+          ),
+          asset(
+            "FOREMAN pipeline output",
+            studentLinks.wesHandoff.pipelineOutput,
+            "data",
+            true,
+          ),
+          asset(
+            "Pipeline trace hunt",
+            studentLinks.wesHandoff.pipelineTraceHunt,
+            "tool",
+          ),
+          asset(
+            "Pipeline concepts",
+            studentLinks.wesHandoff.pipelineConcepts,
+            "tool",
+          ),
+          asset(
+            "Unit 2 Note v2 + unchecked log",
+            studentLinks.wesHandoff.noteAndUncheckedLog,
+            "brief",
+          ),
+          asset(
+            "Unit 2 debrief",
+            studentLinks.wesHandoff.unitTwoDebrief,
+            "tool",
+          ),
+        ],
+      },
     ],
   },
   {
