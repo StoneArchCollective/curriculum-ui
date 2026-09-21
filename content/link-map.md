@@ -2,7 +2,7 @@
 
 This file is the checked-in allowlist for the learner and instructor shells.
 It was supplied by the Curriculum builder and verified against upstream on
-2026-09-20.
+2026-09-21.
 Runtime student constants live in `src/data/linkMap.ts`; gated instructor
 constants live only in `api/instructor.ts`.
 
@@ -15,6 +15,8 @@ M06 teaching-pack PR #10 is merged. Every M06 URL below is pinned to `main`.
 M04 and M05 remain pinned to `main`.
 
 M07 teaching pack is merged. Every M07 URL below is pinned to `main`.
+
+M08 teaching pack is merged. Every M08 URL below is pinned to `main`.
 
 ## Brand lock
 
@@ -126,6 +128,23 @@ does not mark or label the matching row.
 `KEY-M07-answer-key.docx` and `M07-instructor-reveal.pptx` remain
 instructor-only.
 
+### M08 · A strong fit can still mislead.
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/M08-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-01-data-guide.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-02-regression-hunt.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-03-concepts-and-mechanism.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-04-HW4-temperature-correction.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-05-note-v2-and-decision-log.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/FOREMAN-M08-deterioration-report.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/M08-regression-summary.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/M08-strain-temperature-analysis.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/feed.csv`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/weather_station.csv`
+
+`KEY-M08-answer-key.docx` and `M08-instructor-reveal.pptx` remain
+instructor-only.
+
 ### Case B student packet
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
@@ -163,6 +182,7 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M05-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M06-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M07-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M08-run-of-day.html`
 
 ### Reveal and keys
 
@@ -178,6 +198,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/10-M06-alarm-audit/KEY-M06-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/M07-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/KEY-M07-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/M08-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/KEY-M08-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
@@ -202,6 +224,7 @@ The learner shell must not link, preview, index, or search-display:
 
 - the M02 instructor reveal;
 - any `KEY`, `INSTRUCTOR`, `REVEAL`, `answer-key`, `speaker-notes`, or `spoiler` path;
+- the M08 instructor reveal or answer key;
 - H1-03, H2-03, H3-02, H4-03, H5-02, or `FOREMAN-overnight-run.log`;
 - any `teaching-pack/00-INSTRUCTOR/` path;
 - the Case B instructor key;

@@ -104,6 +104,30 @@ export const studentLinks = {
     inspectionInventory:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/11-M07-training-mismatch/M07-inspection-inventory-and-output.csv",
   },
+  spuriousCorrelation: {
+    m08StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/M08-student.pptx",
+    dataGuide:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-01-data-guide.docx",
+    regressionHunt:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-02-regression-hunt.docx",
+    conceptsAndMechanism:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-03-concepts-and-mechanism.docx",
+    homeworkTemperatureCorrection:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-04-HW4-temperature-correction.docx",
+    noteAndDecisionLog:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/H8-05-note-v2-and-decision-log.docx",
+    foremanDeteriorationReport:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/FOREMAN-M08-deterioration-report.docx",
+    regressionSummary:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/M08-regression-summary.csv",
+    strainTemperatureAnalysis:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/M08-strain-temperature-analysis.csv",
+    feed:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/feed.csv",
+    weatherStation:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/12-M08-spurious-correlation/weather_station.csv",
+  },
   caseB: {
     studentAskDocx:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",

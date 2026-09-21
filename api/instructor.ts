@@ -21,6 +21,8 @@ const M06_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M07_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
+const M08_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
@@ -30,6 +32,8 @@ const M05_INSTRUCTOR_HTML =
 const M06_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M07_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M08_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
@@ -80,6 +84,10 @@ const instructorGroups = [
       {
         label: "M07 · DOES THE CONFIDENCE TRAVEL?",
         url: `${M07_INSTRUCTOR_HTML}M07-run-of-day.html`,
+      },
+      {
+        label: "M08 · A STRONG FIT CAN STILL MISLEAD",
+        url: `${M08_INSTRUCTOR_HTML}M08-run-of-day.html`,
       },
     ],
   },
@@ -146,6 +154,14 @@ const instructorGroups = [
       {
         label: "KEY · M07",
         url: `${M07_RAW}teaching-pack/11-M07-training-mismatch/KEY-M07-answer-key.docx`,
+      },
+      {
+        label: "M08 instructor reveal",
+        url: `${M08_RAW}teaching-pack/12-M08-spurious-correlation/M08-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M08",
+        url: `${M08_RAW}teaching-pack/12-M08-spurious-correlation/KEY-M08-answer-key.docx`,
       },
     ],
   },
