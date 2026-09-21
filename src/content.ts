@@ -573,6 +573,55 @@ export const units: Unit[] = [
           ),
         ],
       },
+      {
+        id: "m11",
+        number: "M11",
+        title: "Permission to publish.",
+        kicker: "Dashboard publish checkpoint / Human review",
+        status: "open",
+        summary:
+          "FOREMAN requests public release of a five-tile county dashboard. Diane is skeptical: inspect every tile, commit an approve, fix, or pull decision, and own whether the page goes live.",
+        assignment: "Five-tile publish review; Unit 2 Note v2 continues.",
+        assets: [
+          asset(
+            "M11 student deck",
+            studentLinks.dashboardPublish.m11StudentDeck,
+            "slides",
+          ),
+          asset(
+            "FOREMAN dashboard stub",
+            studentLinks.dashboardPublish.foremanDashboardStub,
+            "field file",
+            true,
+          ),
+          asset(
+            "Five-tile dashboard",
+            studentLinks.dashboardPublish.fiveTileDashboard,
+            "visual",
+            true,
+          ),
+          asset(
+            "Five-tile publish review",
+            studentLinks.dashboardPublish.dashboardReviewForm,
+            "tool",
+          ),
+          asset(
+            "Dashboard metric checkpoint",
+            studentLinks.dashboardPublish.metricCheckpointGuide,
+            "tool",
+          ),
+          asset(
+            "Concepts + publish check",
+            studentLinks.dashboardPublish.conceptsAndPublishCheck,
+            "tool",
+          ),
+          asset(
+            "Unit 2 Note v2 + decision log",
+            studentLinks.dashboardPublish.noteAndDecisionLog,
+            "brief",
+          ),
+        ],
+      },
     ],
   },
   {

@@ -27,6 +27,8 @@ const M09_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M10_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
+const M11_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
@@ -42,6 +44,8 @@ const M08_INSTRUCTOR_HTML =
 const M09_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M10_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M11_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
@@ -104,6 +108,10 @@ const instructorGroups = [
       {
         label: "M10 · DID THE DECK GET WORSE?",
         url: `${M10_INSTRUCTOR_HTML}M10-run-of-day.html`,
+      },
+      {
+        label: "M11 · PERMISSION TO PUBLISH",
+        url: `${M11_INSTRUCTOR_HTML}M11-run-of-day.html`,
       },
     ],
   },
@@ -194,6 +202,14 @@ const instructorGroups = [
       {
         label: "KEY · M10",
         url: `${M10_RAW}teaching-pack/14-M10-deterioration-v-noise/KEY-M10-answer-key.docx`,
+      },
+      {
+        label: "M11 instructor reveal",
+        url: `${M11_RAW}teaching-pack/15-M11-dashboard-publish/M11-instructor-reveal.pptx`,
+      },
+      {
+        label: "KEY · M11",
+        url: `${M11_RAW}teaching-pack/15-M11-dashboard-publish/KEY-M11-answer-key.docx`,
       },
     ],
   },
