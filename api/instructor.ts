@@ -33,6 +33,8 @@ const M12_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
 const M13_RAW =
   "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/";
+const M14_RAW =
+  "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/";
 const INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M04_INSTRUCTOR_HTML =
@@ -55,6 +57,8 @@ const M12_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
 const M13_INSTRUCTOR_HTML =
   "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/";
+const M14_INSTRUCTOR_HTML =
+  "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/cursor/build-m14-exam-1-e69f/teaching-pack/00-INSTRUCTOR/run-of-day/";
 
 const instructorGroups = [
   {
@@ -128,6 +132,10 @@ const instructorGroups = [
       {
         label: "M13 · WES’S HANDOFF",
         url: `${M13_INSTRUCTOR_HTML}M13-run-of-day.html`,
+      },
+      {
+        label: "M14 · EXAM 1 · OVERWEIGHT PERMIT",
+        url: `${M14_INSTRUCTOR_HTML}M14-run-of-day.html`,
       },
     ],
   },
@@ -242,6 +250,18 @@ const instructorGroups = [
       {
         label: "KEY · M13",
         url: `${M13_RAW}teaching-pack/17-M13-wes-handoff/KEY-M13-answer-key.docx`,
+      },
+      {
+        label: "M14 instructor rubric",
+        url: `${M14_RAW}teaching-pack/18-M14-exam-1-overweight-permit/EX1-03-instructor-rubric.docx`,
+      },
+      {
+        label: "KEY · M14",
+        url: `${M14_RAW}teaching-pack/18-M14-exam-1-overweight-permit/KEY-M14-answer-key.docx`,
+      },
+      {
+        label: "M14 later review · NEVER OPEN ON EXAM DAY",
+        url: `${M14_RAW}teaching-pack/18-M14-exam-1-overweight-permit/M14-instructor-later-review.pptx`,
       },
     ],
   },
