@@ -184,6 +184,22 @@ export const studentLinks = {
     loadTest:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/loadtest_2019_2027.csv",
   },
+  dashboardPublish: {
+    m11StudentDeck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/M11-student.pptx",
+    foremanDashboardStub:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/FOREMAN-M11-dashboard-stub.docx",
+    dashboardReviewForm:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/H11-01-dashboard-review-form.docx",
+    metricCheckpointGuide:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/H11-02-metric-checkpoint-guide.docx",
+    conceptsAndPublishCheck:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/H11-03-concepts-and-publish-check.docx",
+    noteAndDecisionLog:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/H11-04-note-v2-and-decision-log.docx",
+    fiveTileDashboard:
+      "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/M11-five-tile-dashboard.png",
+  },
   caseB: {
     studentAskDocx:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx",

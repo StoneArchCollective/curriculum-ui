@@ -18,8 +18,8 @@ M07 teaching pack is merged. Every M07 URL below is pinned to `main`.
 
 M08 teaching pack is merged. Every M08 URL below is pinned to `main`.
 
-M09 and M10 teaching packs are merged. Every M09 and M10 URL below is pinned
-to `main`.
+M09, M10, and M11 teaching packs are merged. Every M09, M10, and M11 URL
+below is pinned to `main`.
 
 ## Brand lock
 
@@ -186,6 +186,20 @@ instructor-only.
 `KEY-M10-answer-key.docx` and `M10-instructor-reveal.pptx` remain
 instructor-only.
 
+### M11 · Permission to publish.
+
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/M11-student.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/FOREMAN-M11-dashboard-stub.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/H11-01-dashboard-review-form.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/H11-02-metric-checkpoint-guide.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/H11-03-concepts-and-publish-check.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/H11-04-note-v2-and-decision-log.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/M11-five-tile-dashboard.png`
+
+`KEY-M11-answer-key.docx` and `M11-instructor-reveal.pptx` remain
+instructor-only. `M11-dashboard-tile-register.csv` contains explicit designed
+failure labels, so it is not exposed in the learner shell.
+
 ### Case B student packet
 
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/student/HW1B-student-ask.docx`
@@ -226,6 +240,7 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M08-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M09-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M10-run-of-day.html`
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M11-run-of-day.html`
 
 ### Reveal and keys
 
@@ -247,6 +262,8 @@ pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/13-M09-false-precision/KEY-M09-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/M10-instructor-reveal.pptx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/14-M10-deterioration-v-noise/KEY-M10-answer-key.docx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/M11-instructor-reveal.pptx`
+- `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/15-M11-dashboard-publish/KEY-M11-answer-key.docx`
 - `https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/07-HW-CASE-B-LIFT-STATION/instructor/INSTRUCTOR_KEY.md`
 
 ### FOREMAN spoilers
@@ -271,7 +288,9 @@ The learner shell must not link, preview, index, or search-display:
 
 - the M02 instructor reveal;
 - any `KEY`, `INSTRUCTOR`, `REVEAL`, `answer-key`, `speaker-notes`, or `spoiler` path;
-- the M08–M10 instructor reveals or answer keys;
+- the M08–M11 instructor reveals or answer keys;
+- `M11-dashboard-tile-register.csv`, whose designed-status column names the
+  two gated failures;
 - H1-03, H2-03, H3-02, H4-03, H5-02, or `FOREMAN-overnight-run.log`;
 - any `teaching-pack/00-INSTRUCTOR/` path;
 - the Case B instructor key;
