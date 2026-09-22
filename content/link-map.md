@@ -3,7 +3,7 @@
 This file is the checked-in allowlist for the learner and instructor shells.
 It was supplied by the Curriculum builder and verified against upstream on
 2026-09-21.
-Runtime student constants live in `src/data/linkMap.ts`; gated instructor
+Runtime student constants live in `src/data/linkMap.ts`; instructor-only
 constants live only in `api/instructor.ts`.
 
 M04 teaching-pack PR #8 is merged. Every M04 URL below, including the updated
@@ -59,6 +59,10 @@ the spoiler-clean course landing.
 These browser-rendered links use `htmlpreview.github.io` so the prerequisite
 self-check guides and vocabulary lab open directly from the Project files
 drawer.
+
+#### About this course
+
+- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/why-this-way.html`
 
 #### Prerequisite review
 
@@ -281,7 +285,6 @@ These browser-rendered links use `htmlpreview.github.io` because the teaching
 pack does not have GitHub Pages enabled and its raw/jsDelivr HTML responses use
 `text/plain`.
 
-- `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/why-this-way.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/index.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M01-run-of-day.html`
 - `https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/run-of-day/M02-run-of-day.html`
@@ -358,7 +361,8 @@ The learner shell must not link, preview, index, or search-display:
 - `M11-dashboard-tile-register.csv`, whose designed-status column names the
   two gated failures;
 - H1-03, H2-03, H3-02, H4-03, H5-02, or `FOREMAN-overnight-run.log`;
-- any `teaching-pack/00-INSTRUCTOR/` path;
+- any `teaching-pack/00-INSTRUCTOR/` path except the explicitly public
+  `why-this-way.html` faculty brief;
 - the Case B instructor key;
 - the upstream course `README.md`;
 - main’s combined `M02-slides-measurement.pptx`.

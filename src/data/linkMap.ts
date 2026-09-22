@@ -6,6 +6,10 @@
  * by the learner shell must be present in this object.
  */
 export const studentLinks = {
+  courseOverview: {
+    facultyBrief:
+      "https://htmlpreview.github.io/?https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/00-INSTRUCTOR/why-this-way.html",
+  },
   orientation: {
     m01Deck:
       "https://raw.githubusercontent.com/Stone-Arch-Collective/Design-and-AI/main/teaching-pack/02-M01-first-day/M01-slides-first-day.pptx",

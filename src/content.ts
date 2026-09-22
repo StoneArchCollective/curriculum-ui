@@ -854,6 +854,17 @@ export const units: Unit[] = [
 
 export const resourceGroups = [
   {
+    title: "About this course",
+    note: "Course design and teaching approach",
+    links: [
+      asset(
+        "Why this course is taught this way",
+        studentLinks.courseOverview.facultyBrief,
+        "brief",
+      ),
+    ],
+  },
+  {
     title: "Prerequisite review",
     note: "Student self-check guides for foundational concepts",
     links: [
