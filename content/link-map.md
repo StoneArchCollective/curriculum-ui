@@ -368,3 +368,41 @@ The learner shell must not link, preview, index, or search-display:
 - main’s combined `M02-slides-measurement.pptx`.
 
 Case B’s student `FOREMAN_PASS_report.md` is intentionally public.
+
+## Open Model LLMs / Stone Arch — learner allowlist
+
+This route is separate from SEIS 201 and uses the Stone Arch brand. Runtime
+constants and its additive allowlist live in `src/data/openLlmsLinks.ts`.
+
+The upstream source ref is `main`. The five session source files were verified
+from their published Pages edit links on 19 Oct 2026. Change
+`OPEN_LLMS_CURRICULUM_REF` once to repin all five source links to the learner
+page PR branch, then change it back to `main` after merge.
+
+### Session pages
+
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/sessions/01/`
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/sessions/02/`
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/sessions/03/`
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/sessions/04/`
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/sessions/05/`
+
+The learner shell adds `#laptop` or `#cloud` at click time. Those anchors are
+part of the pending upstream learner-page change and are not yet present on
+the published `main` pages. On `main`, learners receive the public Pages URLs
+above. Setting the single ref to a PR branch repins all five to their verified
+GitHub source paths (`docs/curricula/open-llms/sessions/01.md` through
+`05.md`) until Pages is updated.
+
+### Published secondary resources
+
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/guide/`
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/glossary/`
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/learning-graph/`
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/deck/deck.html`
+
+### Coming soon
+
+The exact upstream path and PR branch for **Before Sunday 25 Oct 2026** could
+not yet be verified. It is rendered without a link. Add only the verified
+source URL; the shell will then expose `#laptop`, `#cloud`, and `#bring`.
