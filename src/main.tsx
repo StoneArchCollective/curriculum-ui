@@ -1,6 +1,7 @@
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { hrefFor, resourceGroups, units, type Asset, type Meeting } from "./content";
+import { OpenLlmsWorkshop } from "./OpenLlmsWorkshop";
 import "./styles.css";
 
 function BridgeMark({ compact = false }: { compact?: boolean }) {
@@ -529,5 +530,11 @@ function InstructorShell() {
 
 const path = window.location.pathname.replace(/\/+$/, "") || "/";
 createRoot(document.getElementById("root")!).render(
-  path === "/instructor" ? <InstructorShell /> : <StudentShell />,
+  path === "/instructor" ? (
+    <InstructorShell />
+  ) : path === "/open-llms" ? (
+    <OpenLlmsWorkshop />
+  ) : (
+    <StudentShell />
+  ),
 );
