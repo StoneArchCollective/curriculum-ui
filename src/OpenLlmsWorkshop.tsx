@@ -104,17 +104,13 @@ export function OpenLlmsWorkshop() {
 
           <aside className="ollm-cloud-notice">
             <span>No strong laptop?</span>
-            {openLlmsLinks.beforeSunday ? (
-              <a
-                href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#cloud`)}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Use a cloud model <span aria-hidden="true">→</span>
-              </a>
-            ) : (
-              <strong>Use a cloud model · setup link coming soon</strong>
-            )}
+            <a
+              href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#cloud`)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Use a cloud model <span aria-hidden="true">→</span>
+            </a>
           </aside>
         </section>
 
@@ -122,36 +118,42 @@ export function OpenLlmsWorkshop() {
           <article className="ollm-before-card">
             <div>
               <p className="ollm-step">Start here</p>
-              <h2 id="start-heading">Before Sunday</h2>
+              <a
+                className="ollm-before-primary"
+                href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#${track}`)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h2 id="start-heading">Before Sunday</h2>
+                <span>
+                  Open {trackLabel} <span aria-hidden="true">↗</span>
+                </span>
+              </a>
               <p>Prepare your route and check what to bring before the workshop.</p>
             </div>
-            {openLlmsLinks.beforeSunday ? (
-              <div className="ollm-before-links">
-                <a
-                  href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#laptop`)}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  On your laptop
-                </a>
-                <a
-                  href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#cloud`)}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  In the cloud
-                </a>
-                <a
-                  href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#bring`)}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  What to bring
-                </a>
-              </div>
-            ) : (
-              <span className="ollm-coming-soon">Coming soon</span>
-            )}
+            <div className="ollm-before-links">
+              <a
+                href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#laptop`)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                On your laptop
+              </a>
+              <a
+                href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#cloud`)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                In the cloud
+              </a>
+              <a
+                href={allowOpenLlmsLink(`${openLlmsLinks.beforeSunday}#bring`)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                What to bring
+              </a>
+            </div>
           </article>
 
           <div className="ollm-session-heading">

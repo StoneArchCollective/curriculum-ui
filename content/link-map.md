@@ -401,8 +401,11 @@ GitHub source paths (`docs/curricula/open-llms/sessions/01.md` through
 - `https://stonearchcollective.github.io/curriculum/curricula/open-llms/learning-graph/`
 - `https://stonearchcollective.github.io/curriculum/curricula/open-llms/deck/deck.html`
 
-### Coming soon
+### Before Sunday
 
-The exact upstream path and PR branch for **Before Sunday 25 Oct 2026** could
-not yet be verified. It is rendered without a link. Add only the verified
-source URL; the shell will then expose `#laptop`, `#cloud`, and `#bring`.
+- `https://stonearchcollective.github.io/curriculum/curricula/open-llms/before-sunday/`
+
+Source: `docs/curricula/open-llms/before-sunday.md` in curriculum PR
+[#28](https://github.com/StoneArchCollective/curriculum/pull/28). The Pages
+URL publishes after that PR merges. The learner shell exposes its verified
+`#laptop`, `#cloud`, and `#bring` anchors.

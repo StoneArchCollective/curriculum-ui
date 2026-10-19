@@ -23,9 +23,9 @@ const learnerPage = (publishedPath: string, sourcePath: string) =>
     : sourcePage(sourcePath);
 
 export const openLlmsLinks = {
-  // The dated preparation page has not been found on main. Keep this null
-  // until its exact path and branch are verified.
-  beforeSunday: null,
+  // Source: StoneArchCollective/curriculum PR #28,
+  // docs/curricula/open-llms/before-sunday.md. Published after merge.
+  beforeSunday: publishedPage("before-sunday/"),
   sessions: [
     learnerPage("sessions/01/", "sessions/01.md"),
     learnerPage("sessions/02/", "sessions/02.md"),
@@ -42,6 +42,7 @@ export const openLlmsLinks = {
 } as const;
 
 const openLlmsCanonicalUrls = [
+  openLlmsLinks.beforeSunday,
   ...openLlmsLinks.sessions,
   ...Object.values(openLlmsLinks.resources),
 ] as const;

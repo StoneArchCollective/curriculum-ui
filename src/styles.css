@@ -1385,7 +1385,6 @@ footer p {
 .ollm-step,
 .ollm-session-number,
 .ollm-duration,
-.ollm-coming-soon,
 .ollm-footer {
   font-family: "IBM Plex Mono", monospace;
 }
@@ -1538,6 +1537,20 @@ footer p {
   letter-spacing: -0.035em;
 }
 
+.ollm-before-primary {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 22px;
+}
+
+.ollm-before-primary > span {
+  flex: none;
+  color: var(--ollm-gold);
+  border-bottom: 1px solid currentColor;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .ollm-before-card p:last-child {
   max-width: 600px;
   margin: 18px 0 0;
@@ -1555,16 +1568,6 @@ footer p {
   border-bottom: 1px solid rgb(255 255 255 / 25%);
   font-size: 13px;
   font-weight: 600;
-}
-
-.ollm-coming-soon {
-  padding: 9px 12px;
-  color: var(--ollm-gold);
-  border: 1px solid var(--ollm-gold);
-  border-radius: 2px;
-  font-size: 10px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 
 .ollm-session-heading {
@@ -1700,8 +1703,10 @@ footer p {
     grid-template-columns: 1fr;
   }
 
-  .ollm-coming-soon {
-    justify-self: start;
+  .ollm-before-primary {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .ollm-sessions a {
